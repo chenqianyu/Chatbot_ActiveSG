@@ -1,0 +1,668 @@
+slots:
+  activesg:
+    type: text
+intents:
+ - greet
+ - goodbye
+ - faq_eligible_membership
+ - faq_what_activesg
+ - faq_age_membership
+ - faq_facilities
+ - faq_register_programmes
+ - faq_membership_fee
+ - faq_one_hundred_dollars
+ - faq_benefit_supplementary_member
+ - faq_expiry_date_extended
+ - faq_minimum_transaction_extension
+ - faq_advanced_facilities_booking
+ - faq_complimentary_trial_classes
+ - faq_exclusive_member_events
+ - faq_register_membership
+ - faq_membership_card
+ - faq_redeem_benefits_smartphone
+ - faq_verify_activesg_membership
+ - faq_verify_supplementary_account
+ - faq_membership_valid
+ - faq_update_personal_particulars
+ - faq_forget_login_password
+ - faq_withdraw_consent
+ - faq_how_ewallet_work
+ - faq_topup_cash_ewallet
+ - faq_minimum_maximum_topup
+ - faq_ewallet_balance_update
+ - faq_validity_period_mycash
+ - faq_pay_single_entry_pass
+ - faq_successful_deduction
+ - faq_lose_nric_card
+ - faq_protected_lost_automatic
+ - faq_purchase_more_passes
+ - faq_myactivegym_scheme
+ - faq_purchase_myactivegym_scheme
+ - faq_minimum_age_purchase_myactivegym
+ - faq_signup_myactivegym_scheme
+ - faq_pay_myactivegym_scheme
+ - faq_minimum_months_purchase_myactivegym
+ - faq_payment_myactivegym_successful
+ - faq_myactivegym_activated
+ - faq_renew_myactivegym
+ - faq_transfer_mysctivegym_scheme
+ - faq_refund_terminate_myactivegym
+ - faq_access_after_signup
+ - faq_meaning_maswim
+ - faq_eligible_myactiveswim
+ - faq_how_signup_myactiveswim
+ - faq_pay_for_myactiveswim
+ - faq_period_myactiveswim_minimum
+ - faq_successful_payment_maswim
+ - faq_maswim_activated
+ - faq_renew_purchase_myactiveswim
+ - faq_transfer_purchase_myactiveswim
+ - faq_myactiveswim_scheme_refund
+ - faq_pool_access_myactiveswim
+ - faq_register_activesg_programme
+ - faq_how_pay_programme
+ - faq_when_payment_registration
+ - faq_time_payment_adding
+ - faq_commence_prorated
+ - faq_discount_programme
+ - faq_qualifying_age_senior_citizen
+ - faq_ask_for_refund
+ - faq_transfer_registered_slot
+ - faq_behalf_register_pay
+ - faq_waiting_list_full
+ - faq_safe_programmes_participate
+ - faq_cancelled_programme_session
+ - faq_why_parent_consent
+ - faq_how_parents_give_consent
+ - faq_update_parents_email
+ - faq_informed_whether_consent
+ - faq_havenot_email
+ - faq_how_book_facility
+ - faq_amend_booking
+ - faq_refund_policy_unplayable_bookings
+ - faq_make_booking_through_phone
+ - faq_booking_policy_football_fields
+ - faq_company_book_sport_facility
+ - faq_school_soccer_badminton
+ - faq_free_school_facilities
+ - faq_access_my_club_news
+ - faq_who_sports_pioneers
+ - faq_enjoy_benefits
+ - faq_how_know_qualify
+ - faq_mobile_app
+ - faq_platform_activesg_support
+ - faq_pay_use_mobile_app
+ - faq_singaporean_pr_use
+ - faq_difference_member_register_user
+ - faq_what_facilities_book_app
+ - faq_booking_expire_login
+ - faq_rebook_slot
+ - faq_unable_pay_ewallet
+ - faq_how_topup_balance
+ - faq_change_ewallet_pin
+ - faq_forget_ewallet_pin
+ - faq_reset_ewallet_pin
+ - faq_can_pay_debit_card
+ - faq_problem_load_app
+ - faq_location_info
+ - faq_send_feedback_activesg
+ - faq_switch_location_detection
+ - faq_refresh_location
+ - faq_check_version_application
+ - faq_captcha_what
+ - faq_captcha_website
+ - faq_get_captcha
+ - faq_solve_captcha
+ - faq_additional_captcha_challenge
+ - faq_fingerprint_login_what
+ - faq_device_support_fingerprint
+ - faq_feature_available
+ - faq_setup_fingerprint_facebook
+ - faq_setup_login_function
+ - faq_touchid_disable
+ - faq_myinfo_what
+ - faq_apply_myinfo
+ - faq_supplementary_update_myinfo
+ - faq_egift_card_what
+ - faq_egift_card_available
+ - faq_buy_egift_card
+ - faq_can_send_card
+ - faq_payment_egift_card
+ - faq_receive_egift_card
+ - faq_register_card
+ - faq_card_wrong_number_amount
+ - faq_mycash_encash
+ - faq_send_multiple_recipient
+ - faq_view_mycash
+ - faq_step_send_egift
+ - faq_expiry_date_activesg
+ - faq_privilege_senior_citizen
+ - default
+entities:
+  - eligible
+  - captcha
+  - feature
+  - facebook
+templates:
+  utter_greet:
+    - 'Hello! How can I help?'
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye bye :('
+  utter_faq_eligible_membership:
+    - 'ActiveSG membership is open to all Singaporeans and Singapore Permanent Residents (PRs). You must be at least 12 years old to apply for this membership. However, those who are below 12 years old are eligible for supplementary membership, tagged to the accounts of their parents/guardians.'
+  utter_faq_what_activesg:
+    - 'ActiveSG is a national movement for sport where all can experience the joy of living better through sport. ActiveSG is a platform that will strengthen and extend the reach of our sporting ecosystem in Singapore. Through ActiveSG programmes and activities for all ages and abilities, it aims to build communities, increase sports participation and ultimately encourage Singaporeans to live better through sport.'
+  utter_faq_age_membership:
+    - 'We hope to empower our members to take charge of their physical fitness and pursue an active lifestyle independently from a young age. All Singaporeans and Singapore Permanent Residents (PRs) from ages 12 years and above can apply for an ActiveSG membership. All existing ActiveSG members who are currently aged 12 – 15 years will have their supplementary membership converted into individual membership. There are no changes to their membership benefits.'
+  utter_faq_facilities:
+    - 'ActiveSG is the national movement for offering holistic and affordable sports opportunities to all citizens and PRs. Non-members can still enjoy the facilities and programmes at standard rates.'
+  utter_faq_register_programmes:
+    - 'ActiveSG is the national movement for offering holistic and affordable sports opportunities to all citizens and PRs. Non-members can still enjoy the facilities and programmes at standard rates.'
+  utter_faq_membership_fee:
+    - 'No, ActiveSG membership is complimentary for all Singaporeans and Singapore PRs. However, interested eligible parties must sign up to activate the membership.
+    ActiveSG $100 (valid for a limited period)
+    Singapore Citizen / PR rates for sports facilities
+    Priority booking of facilities - 1 day in advance of non-members (all facilities booking policies apply)
+    Complimentary trial classes
+    Invitation to exclusive members’ events
+    Eligibility for purchase of MyActiveGYMTM and MyActiveSWIMTM schemes
+    All membership benefits are non-transferrable and are subject to change at Sport Singapore discretion.'
+  utter_faq_one_hundred_dollars:
+    - '1. Pool and gym admissions (includes Senja-Cashew Community Centre Swimming Pool)
+     2. ActiveSG programmes and activities (capped at 30% of the cost for each programme/ activity, no limit on number of programme/ activity sign-ups)
+     3. ActiveSG facilities booking (excluding Dual-Use-Scheme facilities)
+     4. Purchase of MyActiveGYM™ and MyActiveSWIM™ schemes'
+  utter_faq_benefit_supplementary_member:
+    - 'Supplementary members will enjoy the same benefits as individual members. They will have their supplementary membership converted to individual membership when they reach 12 years old.'
+  utter_faq_expiry_date_extended:
+    - 'Starting from 2016, one-year extension of ActiveSG Dollars expiry date will be granted by performing any transaction using the member’s account in the year of expiry of the ActiveSG Dollars.
+     For example – if your ActiveSG Dollars is expiring on 31 Dec 2016, and you perform any transaction in the year 2016, your expiry date will be auto-extended to 31 Dec 2017.'
+  utter_faq_minimum_transaction_extension:
+    - 'There is no minimum amount. You may transact using either ActiveSG Dollars or MyCash to activate the one-year extension. For example, visit gym or pool, book facility or sign up for programme.'
+  utter_faq_advanced_facilities_booking:
+    - 'ActiveSG members are allowed to book facilities 15 days in advance unlike non-members who can only book 14 days in advance.'
+  utter_faq_complimentary_trial_classes:
+    - 'The complimentary trial classes and exclusive members’ events are publicised on members.myactivesg.com.'
+  utter_faq_exclusive_member_events:
+    - 'Registration is on a first-come-first-served basis.'
+  utter_faq_register_membership:
+    - 'You can register for ActiveSG membership via the following channels: 1. Downloading the “ActiveSG” mobile app on your smart phone. 2. members.myactivesg.com. 3. Register at any Guest Services Office at all ActiveSG Sports Centres and swimming complexes.
+    For enquiries on ActiveSG, you can write in to us via our Online Feedback.
+    For technical enquiries, you can contact us at (1) hotline (6594 1388, Monday to Sunday – 7am to 10pm), or (2) email at helpme@iappsasia.com'
+  utter_faq_membership_card:
+    - 'No, there is no membership card issued for ActiveSG membership. Members will enjoy a convenient cardless experience whereby they can utilise their benefits using the downloaded app on their smart phones.'
+  utter_faq_redeem_benefits_smartphone:
+    - 'You may use the following cards to utillise your benefits:
+     1. NRIC
+     2. Singapore driving license
+     3. School SMART card
+     4. Senior Citizens concession card
+     5. PAssion card'
+  utter_faq_verify_activesg_membership:
+    - 'Verification of ActiveSG membership accounts can be done by logging in to SingPass via members.myactivesg.com. Upon verification, please set your 6 digits eWallet PIN and you will be able to view the complimentary ActiveSG $100 credited into your account.
+     Members under 15 years of age (without SingPass accounts) can visit our Sports Centres and produce your student pass/Birth Certificate for verification. With effect from 30 Aug 2017, our Sports Centres will no longer perform verification for members aged 15 years and above.'
+  utter_faq_verify_supplementary_account:
+    - 'Verification of ActiveSG membership accounts can be done by logging in to SingPass via members.myactivesg.com. Upon verification, please set your 6 digits eWallet PIN and you will be able to view the complimentary ActiveSG $100 credited into your account.
+     Members under 15 years of age (without SingPass accounts) can visit our Sports Centres and produce your student pass/Birth Certificate for verification. With effect from 30 Aug 2017, our Sports Centres will no longer perform verification for members aged 15 years and above.'
+  utter_faq_membership_valid:
+    - 'ActiveSG membership has a lifetime validity upon registration.'
+  utter_faq_update_personal_particulars:
+    - 'You may update your personal particulars via:
+      1. ActiveSG mobile app > VCard > Edit Profile
+      2. members.myactivesg.com  - My Account > Profile > Edit Profile
+      3. At the Guest Services Office of ActiveSG Sports Centres'
+  utter_faq_forget_login_password:
+    - 'You may retrieve your password via:
+      1. ActiveSG mobile app Log-in> Forget Password.
+      2. Visit members.myactivesg.com Log-in Page> Forget Password.
+      The system/app will prompt you to provide your email address or mobile number and a link to reset your password will be sent to your registered email address or mobile number.'
+  utter_faq_withdraw_consent:
+    - 'Yes, you may do so by:
+      1. Signing in to myactivesg.com My Account > Profile > Edit Profile
+      2. Emailing activesg@iappsasia.com to withdraw your consent.'
+  utter_faq_how_ewallet_work:
+    - 'The eWallet allows cashless and cardless transactions at ActiveSG facilities. Members can top up stored value known as “MyCash” in the eWallet for payment when using ActiveSG facilities and programmes. MyCash is non-refundable except upon termination of user account.'
+  utter_faq_topup_cash_ewallet:
+    - '1. ActiveSG mobile app Log-in> VCard> My Profile> eWallet> Top-up
+     2. members.myactivesg.com > Log-in> eWallet> Top-up eWallet
+     3. Cash/ Credit Card at the Guest Services Offices/ swimming complexes
+     4. NETS at selected Guests Services Centres'
+  utter_faq_minimum_maximum_topup:
+    - 'Yes, there is a minimum top-up of $10 for each transaction. A member can hold up to a maximum balance of $1,000 in “My Cash” at any point in time.'
+  utter_faq_ewallet_balance_update:
+    - 'Yes, the eWallet account balance will be updated immediately after each transaction.'
+  utter_faq_validity_period_mycash:
+    - 'No, there is no expiry date for the money topped up in “My Cash”.'
+  utter_faq_pay_single_entry_pass:
+    - 'Simply scan your NRIC or vCard from ActiveSG Mobile App to gain entry.'
+  utter_faq_successful_deduction:
+    - 'For users of ActiveSG app installed on their mobile devices, a push notification for every transaction would be sent to their app. For non-users of ActiveSG app (i.e. zero logins to app per month), an SMS containing a summary of their eWallet account and usage statistics over the past month would be sent to them on the 1st day of the following calendar month.'
+  utter_faq_lose_nric_card:
+    - 'Please inform any of our sports centres immediately and we will prevent any unauthorised use of your ActiveSG account.'
+  utter_faq_protected_lost_automatic:
+    - 'Loss to your eWallet balance will be limited since our system would only allow a maximum of 10 automatic deductions per day from your eWallet for purchasing Gym and Swim passes combined.'
+  utter_faq_purchase_more_passes:
+    - 'You would need to purchase them from our Guest Officer at the Guest Service Counter.'
+  utter_faq_myactivegym_scheme:
+    - '1. ActiveGYM™ refers to ActiveSG gym facilities. MyActiveGYM™ scheme provides ActiveSG members with unlimited gym access to all ActiveGYM™ islandwide.
+       2. MyActiveSWIM™ provides ActiveSG members unlimited pool access to all ActiveSG swimming complexes islandwide (EXCLUDING Senja-Cashew Community Centre Pool and MOE Evans Pool).'
+  utter_faq_purchase_myactivegym_scheme:
+    - 'You have to be a verified ActiveSG member before you are eligible to purchase MyActiveGYM™ scheme.'
+  utter_faq_minimum_age_purchase_myactivegym:
+    - 'Yes, you have to be at least 12 years old to purchase MyActiveGYM™ scheme.'
+  utter_faq_signup_myactivegym_scheme:
+    - 'You can sign up for MyActiveGYM™ or MyActiveSWIM™ scheme via the following channels:
+      1. ActiveSG mobile app Log-in> Buy Scheme
+      2. members.myactivesg.com Log- in> My Account> Buy Scheme
+      3. Guest Services Offices / Swimming Complexes'
+  utter_faq_pay_myactivegym_scheme:
+    - 'Payment can be done via:
+      1. Member’s eWallet (using the ActiveSG mobile app and website).
+      2. Credit Card (using the ActiveSG mobile app and website).
+      3. For MyActiveGYM™ payment, Cash/ Credit Card at our Guest Services Offices/ Swimming Complexes.
+         For MyActiveSWIM™ payment, Cash/ Credit Card at our ActiveSG Sports Centres/ Swimming Complexes.
+      4. iv. NETS at selected Guest Services Offices.'
+  utter_faq_minimum_months_purchase_myactivegym:
+    - 'You can purchase MyActiveGYM™ scheme on a monthly basis.'
+  utter_faq_payment_myactivegym_successful:
+    - 'Upon successful payment via online or ActiveSG mobile app, an electronic receipt will be reflected in your member’s account. For payment at ActiveSG Sports Centres, a receipt will be issued. All transactions will be reflected in the member’s account (under eWallet> Transaction History).'
+  utter_faq_myactivegym_activated:
+    - 'MyActiveGYM™ and MyActiveSWIM™ scheme will be automatically activated on the day of your successful payment.'
+  utter_faq_renew_myactivegym:
+    - 'MyActiveGYM™ can be renewed at:
+      1. ActiveSG mobile app> Log-in> Buy Scheme
+      2. members.myactivesg.com My Account > Profile > Buy Scheme
+      3. Guest Services Offices of ActiveSG Sports Centres / swimming complexes'
+  utter_faq_transfer_mysctivegym_scheme:
+    - 'MyActiveGYM™ scheme is non-transferable and non-refundable once payment is made.'
+  utter_faq_refund_terminate_myactivegym:
+    - 'MyActiveGYM™ and MyActiveSWIM™ scheme are non-refundable.'
+  utter_faq_access_after_signup:
+    - 'Members can access the gym by:
+      1. ActiveSG mobile app
+      2. Scanning their identification cards at the gym counter'
+  utter_faq_meaning_maswim:
+    - '1. ActiveGYM™ refers to ActiveSG gym facilities. MyActiveGYM™ scheme provides ActiveSG members with unlimited gym access to all ActiveGYM™ islandwide.
+       2. MyActiveSWIM™ provides ActiveSG members unlimited pool access to all ActiveSG swimming complexes islandwide (EXCLUDING Senja-Cashew Community Centre Pool and MOE Evans Pool).'
+  utter_faq_eligible_myactiveswim:
+    - 'You have to be a verified ActiveSG member before you are eligible to purchase MyActiveSWIM™ scheme.'
+  utter_faq_how_signup_myactiveswim:
+    - 'You can sign up for MyActiveGYM™ or MyActiveSWIM™ scheme via the following channels:
+      1. ActiveSG mobile app Log-in> Buy Scheme
+      2. members.myactivesg.com  Log- in> My Account> Buy Scheme
+      3. Guest Services Offices / Swimming Complexes'
+  utter_faq_pay_for_myactiveswim:
+    - 'Payment can be done via:
+      1. Member’s eWallet (using the ActiveSG app and website)
+      2. Credit Card (using the ActiveSG app and website)
+      3. For MyActiveGYM™ payment, Cash/ Credit Card at our Guest Services Offices/ Swimming Complexes.
+         For MyActiveSWIM™ payment, Cash/ Credit Card at our ActiveSG Sports Centres/ Swimming Complexes.
+      4. NETS at selected Guest Services Offices'
+  utter_faq_period_myactiveswim_minimum:
+    - 'You can purchase MyActiveSWIM™ scheme on a monthly basis.'
+  utter_faq_successful_payment_maswim:
+    - 'Upon successful payment via online or ActiveSG app, an electronic receipt will be reflected in your member’s account. For payment at ActiveSG Sports Centres, a receipt will be issued.
+      All transactions will be reflected in the member’s account (under “Transaction History”).'
+  utter_faq_maswim_activated:
+    - 'MyActiveGYM™ and MyActiveSWIM™ scheme will be automatically activated on the day of your successful payment.'
+  utter_faq_renew_purchase_myactiveswim:
+    - 'MyActiveSWIM™ can be renewed at:
+      ActiveSG mobile app> Log-in> Buy Scheme
+      members.myactivesg.com My Account > Profile > Buy Scheme iii. Guest Services Offices of ActiveSG Sports Centres / swimming complexes'
+  utter_faq_transfer_purchase_myactiveswim:
+    - 'MyActiveSWIM™ scheme is non-transferable and non-refundable once payment is made.'
+  utter_faq_myactiveswim_scheme_refund:
+    - 'MyActiveGYM™ and MyActiveSWIM™ scheme are non-refundable.'
+  utter_faq_pool_access_myactiveswim:
+    - 'ActiveSG mobile app and Scanning their identification cards at pool entrance '
+  utter_faq_register_activesg_programme:
+    - 'You must be an ActiveSG member (for Singaporeans and Permanent Residents) or a registered user before you can register for ActiveSG programmes.'
+  utter_faq_how_pay_programme:
+    - 'You may pay for a programme via:
+      Member’s eWallet* (using the ActiveSG mobile app and website),
+      Credit Card (using the ActiveSG mobile app and website),
+      Cash/ Credit Card at our ActiveSG Sports Centres/ Swimming Complexes,
+      NETS at selected Sports Centres.
+      *Please ensure that you have sufficient stored value (“MyCash”) in your eWallet. Utilisation of ActiveSG Dollars for Programme fees is strictly applicable to eWallet payment only.'
+  utter_faq_when_payment_registration:
+    - 'Immediate payment is required to secure a slot for the programme. Any unpaid slot will be released after 10 minutes, according to the shopping cart timer.'
+  utter_faq_time_payment_adding:
+    - 'You will have 10 minutes to make payment before the slot is released.'
+  utter_faq_commence_prorated:
+    - 'No, there will not be any pro-rating of programme fees. Full payment must be made for a participant to join the programme.'
+  utter_faq_discount_programme:
+    - 'Programme discounts (if any) will be indicated upfront.'
+  utter_faq_qualifying_age_senior_citizen:
+    - 'Anyone aged 55 years old and above will be eligible for a 10% senior citizens’ discount upon their 55th birthday. They will then enjoy 10% off the programme fee for new programme sign ups which starts on their 55th birth day onwards. The senior citizen discount is not applicable for programmes which start before the 55th birthday of the participant.  There will be no pro-rating of programme fees if the participant’s 55th birthday falls during the course of the programme.'
+  utter_faq_ask_for_refund:
+    - 'No refund will be issued once payment has been confirmed, unless otherwise stated.'
+  utter_faq_transfer_registered_slot:
+    - 'No, programme registration is non-transferable. All registrations and payments are confirmed upon successful checkouts.'
+  utter_faq_behalf_register_pay:
+    - 'No, registration on behalf of another person, that is not a supplementary member tagged to the same person, is not allowed as participants are required to agree to the programme Terms & Conditions before registering for the programme.'
+  utter_faq_waiting_list_full:
+    - 'Yes, you may choose to be on the waiting list when a programme registration is full.'
+  utter_faq_safe_programmes_participate:
+    - 'All programmes are accompanied by descriptions to help participants make informed decisions. Participants are advised to go through the Physical Activity Readiness Questionaires (PARQ) provided before joining a programme.'
+  utter_faq_cancelled_programme_session:
+    - 'Participants will be informed in advance in the case of programme cancellation, and details of replacement session, if any.'
+  utter_faq_why_parent_consent:
+    - 'Parental/Guardian consent will henceforth be required for all ActiveSG members currently aged 12 – 15 years who wish to participate in any ActiveSG organised programmes or competitions. In your independent and responsible pursuit of an active lifestyle with ActiveSG, it is still important for your parent/guardian to give his/her consent for organised programmes and competitions.'
+  utter_faq_how_parents_give_consent:
+    - 'There are two ways
+      1. Online Consent – when you sign up for any programme online, an email will be sent to your parent/guardian to seek consent. He/She will have 72 hours or before the registration closing date (whichever is earlier) to respond by clicking on the link included in the email, failing which the link will expire and your slot released.
+      2. Manual Form – you may download the Indemnity & Parent Consent Form and complete it before signing up for any programme personally at any ActiveSG Sports Centre.'
+  utter_faq_update_parents_email:
+    - 'You may update via:
+      1. ActiveSG mobile app > VCard > Edit Profile
+      2. members.myactivesg.com - My Account > Profile > Edit Profile
+      3. At the Guest Services Office of ActiveSG Sports Centres'
+  utter_faq_informed_whether_consent:
+    - 'Yes, you will be informed of the outcome via email when your parent/guardian responds. If consent is given, you will have 48 hours to make payment and confirm your slot. If consent is not given, the transaction will be terminated.'
+  utter_faq_havenot_email:
+    - 'Of course! You may sign up in person at any ActiveSG Sports Centres. Please bring along the completed Indemnity & Parent Consent Form.'
+  utter_faq_how_book_facility:
+    - 'ActiveSG mobile app Log-in> Book Facility
+      1. Website myactivesg.com> Login > My Account > Book Facility
+      2. Guest Service Office at all ActiveSG Sports Centres / swimming complexes
+      3. Please refer to our Facilities Booking Rates.'
+  utter_faq_amend_booking:
+    - 'No cancellation, replacement and refund are allowed once a booking is confirmed.'
+  utter_faq_refund_policy_unplayable_bookings:
+    - 'When a booking becomes unplayable due to maintenance issue or inclement weather like rain or haze, you can claim refund if it is deemed that more than half of the slot is unplayable due to rain or any other unforeseen circumstances. Original Receipts must be produced at the Guest Services Office within 14 days from the unplayable date. All refunds shall be made to hirers’ eWallet once the rain-off is activated. Hirer may make use of the value in the eWallet to make subsequent bookings.'
+  utter_faq_privilege_senior_citizen:
+    - 'Senior citizens who are ActiveSG members will be able to book certain facilities during non-peak hour slots (at selected venues) free of charge or at discounted rates.  Such bookings can only be made personally at the Guest Services Office in the Sports Centre where the activity will take place.  As there are limited free slots available at each Sports Centre, such booking is on a first-come- first-served basis.'
+  utter_faq_make_booking_through_phone:
+    - 'Users may call the Guest Services Office of the respective Sports Centre to request for assistance in the booking of facilities. With effect from 25 April 14, payment for such bookings made via phone have to be made by 9:30pm on the same day of booking. The booked slots will be released if the user fails to pay by 9:30pm on the same day of the booking. Users may book up to 2 peak slots and 2 non-peak slots per day, similar to all online booking.  Changes have been made to phone booking policy to ensure that we minimise situations whereby facilities are being booked by users who eventually fail to turn up.'
+  utter_faq_booking_policy_football_fields:
+    - 'Football field balloting has ceased since April 2014. The booking of soccer fields can now be made online 14 days prior to the usage (members enjoy one day in advance of non-members), similar to all other facility bookings. Booking quota for soccer fields remains at 2 slots per person within a month.'
+  utter_faq_company_book_sport_facility:
+    - 'All organisations who wish to book sport facilities for their organisations sport events must complete a booking request form and submit it to sport_bookings@sport.gov.sg All booking requests are subject to availability and Sport Singapores Terms of Booking.'
+  utter_faq_school_soccer_badminton:
+    - 'Please refer to the list of school fields and school halls that is available for booking. All bookings must be made at least three days in advance (72 hours from the intended usage date/time) otherwise it will not be accepted.'
+  utter_faq_free_school_facilities:
+    - 'Please refer to the list of free-to-play sport facilities for their addresses.. These free-to-play facilities do not require prior booking to use. However they are subject to terms and conditions for use.'
+  utter_faq_access_my_club_news:
+    - 'You may access My Club News via:
+      1. ActiveSG mobile > My Club News
+      2. members.myactivesg.com - My Account > My Club News'
+  utter_faq_who_sports_pioneers:
+    - 'Sports Pioneers are those who are born in or before 1949 and have represented Singapore in any of the Major Games (namely SEA Games, Commonwealth Games, Asian Games and Olympic Games and International Championships) as an athlete, coach or official.'
+  utter_faq_enjoy_benefits:
+    - 'All sports pioneers will enjoy lifetime free access to all ActiveSG swimming complexes and gyms, in addition to ActiveSG membership benefits.'
+  utter_faq_how_know_qualify:
+    - 'If you meet the criteria set out above, you may email to sport_qsm@sport.gov.sg with a copy of your NRIC, to enquire if you qualify.'
+  utter_faq_mobile_app:
+    - 'ActiveSG Mobile App integrates Singaporean public sports network to provide convenient, real-time access to facilities and programmes for all residents. This app is designed for smartphone users to browse, book and pay for island wide facilities and related services under Sport Singaporean ActiveSG network.'
+  utter_faq_platform_activesg_support:
+    - 'The ActiveSG Mobile App is supported by iOS and Android platforms.'
+  utter_faq_pay_use_mobile_app:
+    - 'No, the ActiveSG mobile app is free to download and use.'
+  utter_faq_singaporean_pr_use:
+    - 'No, anyone can access and use ActiveSG Mobile App to book ActiveSG facilities and sign up for ActiveSG programmes.'
+  utter_faq_difference_member_register_user:
+    - 'ActiveSG members enjoy one day advance priority booking. They can make bookings up to 15 days in advance. Registered users (or non ActiveSG members) can make bookings up to 14 days in advance.'
+  utter_faq_what_facilities_book_app:
+    - 'You can use the ActiveSG mobile app to book ActiveSG facilities such as sports halls, swimming complexes, sports centres, stadiums and fields.'
+  utter_faq_booking_expire_login:
+    - 'There is a time limit of 10 minutes to complete a booking. When this time limit is reached, the incomplete booking automatically expires. You can try again by using the Re-book function.'
+  utter_faq_rebook_slot:
+    - 'Each booking attempt is subject to slot availability at the time of booking. The slot you wanted may have been taken up by another ActiveSG user.'
+  utter_faq_unable_pay_ewallet:
+    - 'You may have entered the wrong eWallet PIN or your eWallet may have insufficient funds to pay for your bookings. You may need to top up the balance in your eWallet.'
+  utter_faq_how_topup_balance:
+    - 'Enter members.myactivesg.com > Login > eWallet > Top Up.'
+  utter_faq_change_ewallet_pin:
+    - 'You can change your eWallet PIN any time by tapping the Change PIN link provided. If you forget your eWallet PIN, you will have to reset your eWallet PIN.
+      There are 2 options to reset your eWallet PIN:
+      1. members.myactivesg.com Log-in > eWallet > change PIN > Reset PIN. Once reset, the new PIN will be sent to your email.
+      2. Reset at the Guest Services Office Show your ID and our staff still assist you to reset your PIN.'
+  utter_faq_forget_ewallet_pin:
+    - 'You can change your eWallet PIN any time by tapping the Change PIN link provided. If you forget your eWallet PIN, you will have to reset your eWallet PIN.
+      There are 2 options to reset your eWallet PIN:
+      1. members.myactivesg.com Log-in > eWallet > change PIN > Reset PIN. Once reset, the new PIN will be sent to your email.
+      2. Reset at the Guest Services Office Show your ID and our staff still assist you to reset your PIN.'
+  utter_faq_reset_ewallet_pin:
+    - 'You can change your eWallet PIN any time by tapping the Change PIN link provided. If you forget your eWallet PIN, you will have to reset your eWallet PIN.
+      There are 2 options to reset your eWallet PIN:
+      1. members.myactivesg.com Log-in > eWallet > change PIN > Reset PIN. Once reset, the new PIN will be sent to your email.
+      2. Reset at the Guest Services Office Show your ID and our staff still assist you to reset your PIN.'
+  utter_faq_can_pay_debit_card:
+    - 'Yes.'
+  utter_faq_problem_load_app:
+    - 'Please ensure that you are connected to the Internet because ActiveSG Mobile App requires data to be downloaded from our server. Make sure that your mobile data connection or Wi-Fi is switched on. Also, ensure that "Location Services" is turned on for the app in the device settings.'
+  utter_faq_location_info:
+    - 'This app uses your current location to give you recommendations on ‘Nearby’. Your current location is not shared with anyone.'
+  utter_faq_send_feedback_activesg:
+    - 'Go to Settings. Click on “App feedback”. Enter your comment and click “Send”. User feedback can help us improve, and we welcome suggestions and feedback!'
+  utter_faq_switch_location_detection:
+    - 'For iOS 5.x
+    Settings > Location Services. Ensure that global Location Services is turned on. Ensure that Location Services for ActiveSG is also turned on.
+    For iOS 6.x and above
+    Settings > Privacy > Location Services. Ensure that global Location Services is turned on. Ensure that Location Services for ActiveSG is also turned on.
+    For Android v4.4.2
+    (For Samsung S4) More > Location . Ensure that Location Services is turned on.
+    For Android v4.4.2
+    (For LG Nexus) Personal > Location . Ensure that Location Services is turned on.'
+  utter_faq_refresh_location:
+    - 'Sometimes it could be due to weak network or poor GPS signals and it may take some time before your current location is detected. If this does not work, close and reopen the app. Location services work best outdoors.'
+  utter_faq_check_version_application:
+    - 'From your Home screen, open the Slide Menu. Settings > About ActiveSG. A description of the app is displayed, along with its version number.'
+  utter_faq_captcha_what:
+    - 'CAPTCHA is the abbreviation for “Completely Automated Public Turing test to tell Computers and Humans Apart.
+    It is a simple test usually “inserted” during a process or transaction over the internet that would require usually a simple response from the user. It is a commonly used “test” over the internet.
+    Essentially, this test helps determine that it is a “real” person who is going through the process or making the transaction rather than an “automatic system or computer”.
+    This test can help to prevent the use of automated softwares from engaging in abusive or unauthorised activities on websites so that it does not hamper the experiences or the convenience of other users.'
+  utter_faq_captcha_website:
+    - 'We would like to ensure that your experience, when visiting the ActiveSG website to get more information or to make a booking, remains easy, simple and positive.
+      With the CAPTCHA step, we are enhancing our system to better serve all our members. Because it is aimed at helping to prevent the use of automated softwares, this will mean that all members making any booking transactions on our ActiveSG website will have a fair and equal chance.'
+  utter_faq_get_captcha:
+    - 'Whenever our system detects that an automated software might have been used to make transactions on our ActiveSG website and apps, CAPTCHA will be activated.'
+  utter_faq_solve_captcha:
+    - 'The CAPTCHA challenge can be in the form of checking a box, entering a phrase or selecting relevant images.'
+  utter_faq_additional_captcha_challenge:
+    - 'CAPTCHA is a self-generated testing protocol. It may involve additional levels of challenges depending on CAPTCHA’s risk analysis techniques. For instance, if there is additional risk detected, then additional levels of CAPTCHA tests will be requested for the user to go through.
+      The ActiveSG website and apps does not have any influence or control over the different levels of challenges to be shown to users.'
+  utter_faq_fingerprint_login_what:
+    - 'Fingerprint Login is an alternative way of logging into your ActiveSG account on the mobile app.'
+  utter_faq_device_support_fingerprint:
+    - 'iPhone/iPad with Fingerprint login function and iOS version 8 and above, will be able to support this function.'
+  utter_faq_feature_available:
+    - 'This function will be made available on 21 Dec 2016 for Apple devices with Touch ID functions. Support for Android devices with Fingerprint login will be launched in due course. Please ensure that the app is updated with the latest version to be able to receive the latest function.'
+  utter_faq_setup_fingerprint_facebook:
+    - 'This is not possible as first time setup of your fingerprint login, must be done through your ActiveSG account using your “Mobile/Email/NRIC” and “Password”.'
+  utter_faq_setup_login_function:
+    - 'Step 1: Launch ActiveSG application and click on “Login” button.
+      Step 2: Login into your ActiveSG account with your “Mobile/Email/NRIC” and “Password”
+      Step 3: Welcome screen will be displayed
+      Step 4: Select “Settings” on the left menu.
+      Step 5: Select the “Touch ID login” to setup Fingerprint login.
+      Step 6: Enter your login password to setup Touch ID Login. Click on “Done” button on the keypad once input is completed. A confirmation message will be displayed.
+      Step 7: Once “Ok” button is clicked on the confirmation message, the “Touch ID login” function will be activated.
+      Step 8: To activate the Touch ID for eWallet, click on “Touch ID for eWallet” button and enter your eWallet Pin. Click on the “Done” button once completed.
+      Step 9: A confirmation message will be displayed. Congratulation, both Touch ID Login and Touch ID for eWallet had been successfully setup.
+      Step 10: Click to launch the ActiveSG app again, Touch ID Login will be activated. You may now login to the ActiveSG app with your Touch ID.'
+  utter_faq_touchid_disable:
+    - 'If another person uses your phone to access his/her account from the ActiveSG app, your fingerprint configuration will be automatically disabled.'
+  utter_faq_myinfo_what:
+    - 'MyInfo is a consent-based data platform that pulls your personal data across participating Government agencies to fill out e-forms. Users can create their own personal data profile for greater convenience when using Government eServices. Please visit www.myinfo.gov.sg for more information.'
+  utter_faq_apply_myinfo:
+    - 'It is not mandatory for existing users to apply for MyInfo. However you may wish to register your profile with MyInfo as Sport Singapore is one of the participating agencies.
+      Your MyInfo profile data can be used to update your ActiveSG account profile by simply clicking on the ‘Retrieve MyInfo’ button found in your profile page.'
+  utter_faq_supplementary_update_myinfo:
+    - 'Your MyInfo profile will only be used to update your primary ActiveSG account. The supplementary accounts under you will not be affected.'
+  utter_faq_egift_card_what:
+    - 'The ActiveSG e-Gift Card allows you to share the joy of giving to friends and family and encourage one another to exercise and stay active. Buy an ActiveSG e-Gift Card with MyCash $ credits that can be utilised for ActiveSG facilities and programme to enable them to experience sport and live better through Sport!'
+  utter_faq_egift_card_available:
+    - 'ActiveSG e-Gift Card is available from Monday, 11 December 2017 and it can be purchased on ActiveSG app. It is not available on the web for now.
+      Your MyInfo profile data can be used to update your ActiveSG account profile by simply clicking on the ‘Retrieve MyInfo’ button found in your profile page.'
+  utter_faq_buy_egift_card:
+    - 'Please download the new version of ActiveSG app, login and you could start buying ActiveSG e-Gift Card on ActiveSG app for your friends and family members. Please refer to Question 12 for the detailed steps on buying an ActiveSG e-Gift Card.'
+  utter_faq_can_send_card:
+    - 'You can send an ActiveSG e-Gift Card to any Singapore registered mobile number.'
+  utter_faq_payment_egift_card:
+    - 'You may make payment via ActiveSG app using eWallet MyCash $ or Credit Card. Please note that the complimentary ActiveSG $100 credits cannot be used for purchase of ActiveSG e-Gift Card as the ActiveSG $ dollars is non- transferrable.'
+  utter_faq_receive_egift_card:
+    - 'For registered ActiveSG member/user, the e-Gift Card (MyCash $) from senders will be credited into your ActiveSG eWallet (MyCash).
+      For individual who have no account with ActiveSG, recipient will receive an SMS alert to download the ActiveSG app to receive the e-Gift Card. The MyCash $ will be automatically credited into his/her eWallet MyCash $ once he/she is successfully registered.
+      If the individual didn’t follow through with the registration to receive the e-Gift Card after a period of time, the MyCash $ in e-Gift Card will be credited back to the sender.'
+  utter_faq_register_card:
+    - 'Individual is required to register to have an account to receive the e-Gift Card MyCash $ in ActiveSG eWallet and subsequently to utilise the MyCash $.'
+  utter_faq_card_wrong_number_amount:
+    - 'Once the e-Gift Card is sent, MyCash $ will be transferred to the recipient’s account instantly. Hence, please ensure the correct mobile number is entered and correct amount of denomination is selected. There shall be no refund once the e-Gift Card is purchased.'
+  utter_faq_mycash_encash:
+    - 'The e-Gift Card with MyCash $ is for use at ActiveSG pool, gym, programmes and booking of ActiveSG courts, to encourage and enable us to exercise and stay active, thus the MyCash $ in e-Gift Card shall not be allowed to be en-cashed.'
+  utter_faq_send_multiple_recipient:
+    - 'The e-Gift Card is designed for personalisation of messages to individuals, hence it is not for sending to multiple recipients for now.'
+  utter_faq_view_mycash:
+    - 'Recipient can view his/her MyCash $ in the ActiveSG eWallet statement.'
+  utter_faq_step_send_egift:
+    - 'Step 1: Download the new version of ActiveSG app.
+      Step 2: Launch ActiveSG app and log in.
+      Step 3: Click on “Send A Gift Card” at the Home Page.
+      Step 4: Enter your personalised message and recipient’s number, select Gift Card amount and.
+      Step 5: Verify the details and click on “Buy Now”.'
+  utter_faq_expiry_date_activesg:
+    - 'Yes, the complimentary ActiveSG $100 will expire on 31 December of the following year upon verification of the ActiveSG accounts. For example, ActiveSG Dollars issued on 6 June 2016 (or any other day in the same year) will expire on 31 December 2017 (the following year).
+      Singaporeans and Singapore PRs can sign up for their complimentary ActiveSG membership anytime. While the membership has no expiry date, it is vital to include an expiry date for the utilisation of the ActiveSG $100 so as to encourage members to begin or step up on their sporting pursuits sooner rather than later.'
+  utter_default:
+    - 'Sorry, I do not understand.'
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_faq_eligible_membership
+ - utter_faq_what_activesg
+ - utter_faq_age_membership
+ - utter_faq_facilities
+ - utter_faq_register_programmes
+ - utter_faq_membership_fee
+ - utter_faq_one_hundred_dollars
+ - utter_faq_benefit_supplementary_member
+ - utter_faq_expiry_date_extended
+ - utter_faq_minimum_transaction_extension
+ - utter_faq_advanced_facilities_booking
+ - utter_faq_complimentary_trial_classes
+ - utter_faq_exclusive_member_events
+ - utter_faq_register_membership
+ - utter_faq_membership_card
+ - utter_faq_redeem_benefits_smartphone
+ - utter_faq_verify_activesg_membership
+ - utter_faq_verify_supplementary_account
+ - utter_faq_membership_valid
+ - utter_faq_update_personal_particulars
+ - utter_faq_forget_login_password
+ - utter_faq_withdraw_consent
+ - utter_faq_how_ewallet_work
+ - utter_faq_topup_cash_ewallet
+ - utter_faq_minimum_maximum_topup
+ - utter_faq_ewallet_balance_update
+ - utter_faq_validity_period_mycash
+ - utter_faq_pay_single_entry_pass
+ - utter_faq_successful_deduction
+ - utter_faq_lose_nric_card
+ - utter_faq_protected_lost_automatic
+ - utter_faq_purchase_more_passes
+ - utter_faq_myactivegym_scheme
+ - utter_faq_purchase_myactivegym_scheme
+ - utter_faq_minimum_age_purchase_myactivegym
+ - utter_faq_signup_myactivegym_scheme
+ - utter_faq_pay_myactivegym_scheme
+ - utter_faq_minimum_months_purchase_myactivegym
+ - utter_faq_payment_myactivegym_successful
+ - utter_faq_myactivegym_activated
+ - utter_faq_renew_myactivegym
+ - utter_faq_transfer_mysctivegym_scheme
+ - utter_faq_refund_terminate_myactivegym
+ - utter_faq_access_after_signup
+ - utter_faq_meaning_maswim
+ - utter_faq_eligible_myactiveswim
+ - utter_faq_how_signup_myactiveswim
+ - utter_faq_pay_for_myactiveswim
+ - utter_faq_period_myactiveswim_minimum
+ - utter_faq_successful_payment_maswim
+ - utter_faq_maswim_activated
+ - utter_faq_renew_purchase_myactiveswim
+ - utter_faq_transfer_purchase_myactiveswim
+ - utter_faq_myactiveswim_scheme_refund
+ - utter_faq_pool_access_myactiveswim
+ - utter_faq_register_activesg_programme
+ - utter_faq_how_pay_programme
+ - utter_faq_when_payment_registration
+ - utter_faq_time_payment_adding
+ - utter_faq_commence_prorated
+ - utter_faq_discount_programme
+ - utter_faq_qualifying_age_senior_citizen
+ - utter_faq_ask_for_refund
+ - utter_faq_transfer_registered_slot
+ - utter_faq_behalf_register_pay
+ - utter_faq_waiting_list_full
+ - utter_faq_safe_programmes_participate
+ - utter_faq_cancelled_programme_session
+ - utter_faq_why_parent_consent
+ - utter_faq_how_parents_give_consent
+ - utter_faq_update_parents_email
+ - utter_faq_informed_whether_consent
+ - utter_faq_havenot_email
+ - utter_faq_how_book_facility
+ - utter_faq_amend_booking
+ - utter_faq_refund_policy_unplayable_bookings
+ - utter_faq_make_booking_through_phone
+ - utter_faq_booking_policy_football_fields
+ - utter_faq_company_book_sport_facility
+ - utter_faq_school_soccer_badminton
+ - utter_faq_free_school_facilities
+ - utter_faq_access_my_club_news
+ - utter_faq_who_sports_pioneers
+ - utter_faq_enjoy_benefits
+ - utter_faq_how_know_qualify
+ - utter_faq_mobile_app
+ - utter_faq_platform_activesg_support
+ - utter_faq_pay_use_mobile_app
+ - utter_faq_singaporean_pr_use
+ - utter_faq_difference_member_register_user
+ - utter_faq_what_facilities_book_app
+ - utter_faq_booking_expire_login
+ - utter_faq_rebook_slot
+ - utter_faq_unable_pay_ewallet
+ - utter_faq_how_topup_balance
+ - utter_faq_change_ewallet_pin
+ - utter_faq_forget_ewallet_pin
+ - utter_faq_reset_ewallet_pin
+ - utter_faq_can_pay_debit_card
+ - utter_faq_problem_load_app
+ - utter_faq_location_info
+ - utter_faq_send_feedback_activesg
+ - utter_faq_switch_location_detection
+ - utter_faq_refresh_location
+ - utter_faq_check_version_application
+ - utter_faq_captcha_what
+ - utter_faq_captcha_website
+ - utter_faq_get_captcha
+ - utter_faq_solve_captcha
+ - utter_faq_additional_captcha_challenge
+ - utter_faq_fingerprint_login_what
+ - utter_faq_device_support_fingerprint
+ - utter_faq_feature_available
+ - utter_faq_setup_fingerprint_facebook
+ - utter_faq_setup_login_function
+ - utter_faq_touchid_disable
+ - utter_faq_myinfo_what
+ - utter_faq_apply_myinfo
+ - utter_faq_supplementary_update_myinfo
+ - utter_faq_egift_card_what
+ - utter_faq_egift_card_available
+ - utter_faq_buy_egift_card
+ - utter_faq_can_send_card
+ - utter_faq_payment_egift_card
+ - utter_faq_receive_egift_card
+ - utter_faq_register_card
+ - utter_faq_card_wrong_number_amount
+ - utter_faq_mycash_encash
+ - utter_faq_send_multiple_recipient
+ - utter_faq_view_mycash
+ - utter_faq_step_send_egift
+ - utter_faq_expiry_date_activesg
+ - utter_faq_privilege_senior_citizen
+ - utter_default

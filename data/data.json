@@ -1,0 +1,3545 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "What is ActiveSG?",
+        "intent": "faq_what_activesg",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "ActiveSG",
+            "entity": "activesg"
+          }
+        ]
+      },
+      {
+        "text": "what activesg",
+        "intent": "faq_what_activesg",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "activesg",
+            "entity": "activesg"
+          }
+        ]
+      },
+      {
+        "text": "what's activesg",
+        "intent": "faq_what_activesg",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "activesg",
+            "entity": "activesg"
+          }
+        ]
+      },
+      {
+        "text": "explain activesg",
+        "intent": "faq_what_activesg",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "activesg",
+            "entity": "activesg"
+          }
+        ]
+      },
+      {
+        "text": "what does activesg mean",
+        "intent": "faq_what_activesg",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "activesg",
+            "entity": "activesg"
+          }
+        ]
+      },
+      {
+        "text": "Who eligible for ActiveSG membership?",
+        "intent": "faq_eligible_membership",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "eligible",
+            "entity": "eligible"
+          }
+        ]
+      },
+      {
+        "text": "i'm i eligible for ActiveSG membership",
+        "intent": "faq_eligible_membership",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "eligible",
+            "entity": "eligible"
+          }
+        ]
+      },
+      {
+        "text": "eligible for ActiveSG membership",
+        "intent": "faq_eligible_membership",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "eligible",
+            "entity": "eligible"
+          }
+        ]
+      },
+      {
+        "text": "eligible for activesg membership",
+        "intent": "faq_eligible_membership",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "eligible",
+            "entity": "eligible"
+          }
+        ]
+      },
+      {
+        "text": "eligible activesg membership",
+        "intent": "faq_eligible_membership",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "eligible",
+            "entity": "eligible"
+          }
+        ]
+      },
+      {
+        "text": "lowering the ActiveSG membership to the age of 12",
+        "intent": "faq_age_membership",
+        "entities": []
+      },
+      {
+        "text": "age of ActiveSG membership",
+        "intent": "faq_age_membership",
+        "entities": []
+      },
+      {
+        "text": "Why are you lowering the ActiveSG membership to the age of 12?",
+        "intent": "faq_age_membership",
+        "entities": []
+      },
+      {
+        "text": "What's the lowest age I can be the ActiveSG membership?",
+        "intent": "faq_age_membership",
+        "entities": []
+      },
+      {
+        "text": "lowering the ActiveSG membership age to 12 years old?",
+        "intent": "faq_age_membership",
+        "entities": []
+      },
+      {
+        "text": "Who can use the facilities?",
+        "intent": "faq_facilities",
+        "entities": []
+      },
+      {
+        "text": "Can I use facilities?",
+        "intent": "faq_facilities",
+        "entities": []
+      },
+      {
+        "text": "use facilities",
+        "intent": "faq_facilities",
+        "entities": []
+      },
+      {
+        "text": "can use facilities",
+        "intent": "faq_facilities",
+        "entities": []
+      },
+      {
+        "text": "who use facilities",
+        "intent": "faq_facilities",
+        "entities": []
+      },
+      {
+        "text": "Does it mean that non-members cannot register for programmes?",
+        "intent": "faq_register_programmes",
+        "entities": []
+      },
+      {
+        "text": "Who can register for programes?",
+        "intent": "faq_register_programmes",
+        "entities": []
+      },
+      {
+        "text": "Can non-members register for programmes?",
+        "intent": "faq_register_programmes",
+        "entities": []
+      },
+      {
+        "text": "non-members cannot register for programmes",
+        "intent": "faq_register_programmes",
+        "entities": []
+      },
+      {
+        "text": "register for programmes",
+        "intent": "faq_register_programmes",
+        "entities": []
+      },
+      {
+        "text": "Is there a membership fee to join ActiveSG?",
+        "intent": "faq_membership_fee",
+        "entities": []
+      },
+      {
+        "text": "Is membership fee necessary for being a member?",
+        "intent": "faq_membership_fee",
+        "entities": []
+      },
+      {
+        "text": "membership fee to join ActiveSG",
+        "intent": "faq_membership_fee",
+        "entities": []
+      },
+      {
+        "text": "require membership fee to join ActiveSG",
+        "intent": "faq_membership_fee",
+        "entities": []
+      },
+      {
+        "text": "membership fee for membership",
+        "intent": "faq_membership_fee",
+        "entities": []
+      },
+      {
+        "text": "What can the ActiveSG $100 be used for?",
+        "intent": "faq_one_hundred_dollars",
+        "entities": []
+      },
+      {
+        "text": "When can I use $100 in ActiveSG?",
+        "intent": "faq_one_hundred_dollars",
+        "entities": []
+      },
+      {
+        "text": "use of the ActiveSG $100",
+        "intent": "faq_one_hundred_dollars",
+        "entities": []
+      },
+      {
+        "text": "ActiveSG 100 dollars for use",
+        "intent": "faq_one_hundred_dollars",
+        "entities": []
+      },
+      {
+        "text": "ActiveSG 100 dollars use for",
+        "intent": "faq_one_hundred_dollars",
+        "entities": []
+      },
+      {
+        "text": "What benefits will supplementary members receive?",
+        "intent": "faq_benefit_supplementary_member",
+        "entities": []
+      },
+      {
+        "text": "benefits supplementary members receive",
+        "intent": "faq_benefit_supplementary_member",
+        "entities": []
+      },
+      {
+        "text": "benefits for supplementary members",
+        "intent": "faq_benefit_supplementary_member",
+        "entities": []
+      },
+      {
+        "text": "supplementary members receive benefits",
+        "intent": "faq_benefit_supplementary_member",
+        "entities": []
+      },
+      {
+        "text": "supplementary members benefit",
+        "intent": "faq_benefit_supplementary_member",
+        "entities": []
+      },
+      {
+        "text": "How can I get my ActiveSG Dollars expiry date extended?",
+        "intent": "faq_expiry_date_extended",
+        "entities": []
+      },
+      {
+        "text": "My ActiveSG Dollars is expired",
+        "intent": "faq_expiry_date_extended",
+        "entities": []
+      },
+      {
+        "text": "I want to entend my ActiveSG Dollars expiry date",
+        "intent": "faq_expiry_date_extended",
+        "entities": []
+      },
+      {
+        "text": "get ActiveSG Dollars expiry date extended",
+        "intent": "faq_expiry_date_extended",
+        "entities": []
+      },
+      {
+        "text": "extend my ActiveSG Dollars expiry date",
+        "intent": "faq_expiry_date_extended",
+        "entities": []
+      },
+      {
+        "text": "Is there a minimum transaction amount in order to enjoy the one-year extension?",
+        "intent": "faq_minimum_transaction_extension",
+        "entities": []
+      },
+      {
+        "text": "What's the minimum transaction amount to enjoy the one-year extension?",
+        "intent": "faq_minimum_transaction_extension",
+        "entities": []
+      },
+      {
+        "text": "minimum transaction amount for one-year extension",
+        "intent": "faq_minimum_transaction_extension",
+        "entities": []
+      },
+      {
+        "text": "minimum transaction amount to enjoy the one-year extension",
+        "intent": "faq_minimum_transaction_extension",
+        "entities": []
+      },
+      {
+        "text": "minimum transaction amount to enjoy one-year extension",
+        "intent": "faq_minimum_transaction_extension",
+        "entities": []
+      },
+      {
+        "text": "How is the ActiveSG members’ advanced facilities booking different from non-members?",
+        "intent": "faq_advanced_facilities_booking",
+        "entities": []
+      },
+      {
+        "text": "differences between the ActiveSG members' advanced facilities booking and non-members",
+        "intent": "faq_advanced_facilities_booking",
+        "entities": []
+      },
+      {
+        "text": "ActiveSG members' advanced facilities booking",
+        "intent": "faq_advanced_facilities_booking",
+        "entities": []
+      },
+      {
+        "text": "non-members snd ActiveSG members’ advanced facilities booking",
+        "intent": "faq_advanced_facilities_booking",
+        "entities": []
+      },
+      {
+        "text": "ActiveSG members’ advanced facilities booking different from non-members",
+        "intent": "faq_advanced_facilities_booking",
+        "entities": []
+      },
+      {
+        "text": "How can I sign up for the complimentary trial classes?",
+        "intent": "faq_complimentary_trial_classes",
+        "entities": []
+      },
+      {
+        "text": "sign up for the complimentary trial classes",
+        "intent": "faq_complimentary_trial_classes",
+        "entities": []
+      },
+      {
+        "text": "complimentary trial classes",
+        "intent": "faq_complimentary_trial_classes",
+        "entities": []
+      },
+      {
+        "text": "complimentary trial classes sign up",
+        "intent": "faq_complimentary_trial_classes",
+        "entities": []
+      },
+      {
+        "text": "i want to sign up for complimentary trial classes",
+        "intent": "faq_complimentary_trial_classes",
+        "entities": []
+      },
+      {
+        "text": "How can I sign up for the exclusive members’ events?",
+        "intent": "faq_exclusive_member_events",
+        "entities": []
+      },
+      {
+        "text": "sign up for the exclusive members’ events",
+        "intent": "faq_exclusive_member_events",
+        "entities": []
+      },
+      {
+        "text": "exclusive members events",
+        "intent": "faq_exclusive_member_events",
+        "entities": []
+      },
+      {
+        "text": "exclusive members’ events sign up",
+        "intent": "faq_exclusive_member_events",
+        "entities": []
+      },
+      {
+        "text": "How to sign up for the exclusive members’ events?",
+        "intent": "faq_exclusive_member_events",
+        "entities": []
+      },
+      {
+        "text": "exclusive members’ events",
+        "intent": "faq_exclusive_member_events",
+        "entities": []
+      },
+      {
+        "text": "How do I register for ActiveSG membership?",
+        "intent": "faq_register_membership",
+        "entities": []
+      },
+      {
+        "text": "register for ActiveSG membership",
+        "intent": "faq_register_membership",
+        "entities": []
+      },
+      {
+        "text": "How to register for ActiveSG membership?",
+        "intent": "faq_register_membership",
+        "entities": []
+      },
+      {
+        "text": "I want to register for ActiveSG membership",
+        "intent": "faq_register_membership",
+        "entities": []
+      },
+      {
+        "text": "register ActiveSG membership",
+        "intent": "faq_register_membership",
+        "entities": []
+      },
+      {
+        "text": "Will I receive my membership card upon successful registration?",
+        "intent": "faq_membership_card",
+        "entities": []
+      },
+      {
+        "text": "receive membership card upon successful registration",
+        "intent": "faq_membership_card",
+        "entities": []
+      },
+      {
+        "text": "receive membership card",
+        "intent": "faq_membership_card",
+        "entities": []
+      },
+      {
+        "text": "upon successful registration can receive membership card",
+        "intent": "faq_membership_card",
+        "entities": []
+      },
+      {
+        "text": "When can I receive my membership card upon successful registration?",
+        "intent": "faq_membership_card",
+        "entities": []
+      },
+      {
+        "text": "How do I redeem my membership benefits if I do not own a smartphone? ",
+        "intent": "faq_redeem_benefits_smartphone",
+        "entities": []
+      },
+      {
+        "text": "How to redeem my membership benefits without owning a smartphone?",
+        "intent": "faq_redeem_benefits_smartphone",
+        "entities": []
+      },
+      {
+        "text": "redeem membership benefits without a smartphone",
+        "intent": "faq_redeem_benefits_smartphone",
+        "entities": []
+      },
+      {
+        "text": "redeem my membership benefits if I do not own a smartphone ",
+        "intent": "faq_redeem_benefits_smartphone",
+        "entities": []
+      },
+      {
+        "text": "redeem benefits without a smartphone",
+        "intent": "faq_redeem_benefits_smartphone",
+        "entities": []
+      },
+      {
+        "text": "How do I verify my ActiveSG membership to receive the ActiveSG $100?",
+        "intent": "faq_verify_activesg_membership",
+        "entities": []
+      },
+      {
+        "text": "verify ActiveSG membership to receive the ActiveSG $100",
+        "intent": "faq_verify_activesg_membership",
+        "entities": []
+      },
+      {
+        "text": "verify ActiveSG membership",
+        "intent": "faq_verify_activesg_membership",
+        "entities": []
+      },
+      {
+        "text": "How to verify my ActiveSG membership and receive the ActiveSG $100?",
+        "intent": "faq_verify_activesg_membership",
+        "entities": []
+      },
+      {
+        "text": "I'd like to verify my ActiveSG membership to receive the ActiveSG $100",
+        "intent": "faq_verify_activesg_membership",
+        "entities": []
+      },
+      {
+        "text": "How do I verify my supplementary account(s) to receive the ActiveSG $100?",
+        "intent": "faq_verify_supplementary_account",
+        "entities": []
+      },
+      {
+        "text": "verify supplementary account(s) to receive the ActiveSG $100",
+        "intent": "faq_verify_supplementary_account",
+        "entities": []
+      },
+      {
+        "text": "verify supplementary account(s)",
+        "intent": "faq_verify_supplementary_account",
+        "entities": []
+      },
+      {
+        "text": "How to verify my supplementary account(s) to receive the ActiveSG $100?",
+        "intent": "faq_verify_supplementary_account",
+        "entities": []
+      },
+      {
+        "text": "verify supplementary account(s) and receive the $100",
+        "intent": "faq_verify_supplementary_account",
+        "entities": []
+      },
+      {
+        "text": "How long is the ActiveSG membership valid for?",
+        "intent": "faq_membership_valid",
+        "entities": []
+      },
+      {
+        "text": "how long ActiveSG membership valid",
+        "intent": "faq_membership_valid",
+        "entities": []
+      },
+      {
+        "text": "ActiveSG membership valid",
+        "intent": "faq_membership_valid",
+        "entities": []
+      },
+      {
+        "text": "time valid for ActiveSG membership",
+        "intent": "faq_membership_valid",
+        "entities": []
+      },
+      {
+        "text": "ActiveSG membership validation",
+        "intent": "faq_membership_valid",
+        "entities": []
+      },
+      {
+        "text": "How do I update my personal particulars?",
+        "intent": "faq_update_personal_particulars",
+        "entities": []
+      },
+      {
+        "text": "How to update personal particulars?",
+        "intent": "faq_update_personal_particulars",
+        "entities": []
+      },
+      {
+        "text": "update personal particulars",
+        "intent": "faq_update_personal_particulars",
+        "entities": []
+      },
+      {
+        "text": "I want to update my personal particulars",
+        "intent": "faq_update_personal_particulars",
+        "entities": []
+      },
+      {
+        "text": "update my personal particulars",
+        "intent": "faq_update_personal_particulars",
+        "entities": []
+      },
+      {
+        "text": "What should I do if I forget my log-in password?",
+        "intent": "faq_forget_login_password",
+        "entities": []
+      },
+      {
+        "text": "What if I forget my log-in password?",
+        "intent": "faq_forget_login_password",
+        "entities": []
+      },
+      {
+        "text": "forget my log-in password",
+        "intent": "faq_forget_login_password",
+        "entities": []
+      },
+      {
+        "text": "What to do if I forget my log-in password",
+        "intent": "faq_forget_login_password",
+        "entities": []
+      },
+      {
+        "text": "I forgot my log-in password",
+        "intent": "faq_forget_login_password",
+        "entities": []
+      },
+      {
+        "text": "Can I withdraw my consent to receiving ActiveSG updates after consenting to it during registration?",
+        "intent": "faq_withdraw_consent",
+        "entities": []
+      },
+      {
+        "text": "withdraw my consent to receiving ActiveSG updates after consenting to it during registration",
+        "intent": "faq_withdraw_consent",
+        "entities": []
+      },
+      {
+        "text": "I want to withdraw my consent to receiving ActiveSG updates after consenting to it",
+        "intent": "faq_withdraw_consent",
+        "entities": []
+      },
+      {
+        "text": "withdraw my consent to receiving ActiveSG updates after consenting",
+        "intent": "faq_withdraw_consent",
+        "entities": []
+      },
+      {
+        "text": "withdraw my consent to receiving ActiveSG updates",
+        "intent": "faq_withdraw_consent",
+        "entities": []
+      },
+      {
+        "text": "How does the ActiveSG eWallet work?",
+        "intent": "faq_how_ewallet_work",
+        "entities": []
+      },
+      {
+        "text": "ActiveSG eWallet work",
+        "intent": "faq_how_ewallet_work",
+        "entities": []
+      },
+      {
+        "text": "How ActiveSG eWallet work",
+        "intent": "faq_how_ewallet_work",
+        "entities": []
+      },
+      {
+        "text": "How eWallet work",
+        "intent": "faq_how_ewallet_work",
+        "entities": []
+      },
+      {
+        "text": "what does the ActiveSG eWallet work",
+        "intent": "faq_how_ewallet_work",
+        "entities": []
+      },
+      {
+        "text": "How should I top up My Cash in my eWallet?",
+        "intent": "faq_topup_cash_ewallet",
+        "entities": []
+      },
+      {
+        "text": "How to top up My Cash in my eWallet?",
+        "intent": "faq_topup_cash_ewallet",
+        "entities": []
+      },
+      {
+        "text": "top up My Cash in my eWallet",
+        "intent": "faq_topup_cash_ewallet",
+        "entities": []
+      },
+      {
+        "text": "I want to top up My Cash in my eWallet",
+        "intent": "faq_topup_cash_ewallet",
+        "entities": []
+      },
+      {
+        "text": "top up eWallet My Cash",
+        "intent": "faq_topup_cash_ewallet",
+        "entities": []
+      },
+      {
+        "text": "Does it exist a minimum and maximum top up amount?",
+        "intent": "faq_minimum_maximum_topup",
+        "entities": []
+      },
+      {
+        "text": "What's the minimum and maximum top up amount",
+        "intent": "faq_minimum_maximum_topup",
+        "entities": []
+      },
+      {
+        "text": "minimum and maximum top up amount",
+        "intent": "faq_minimum_maximum_topup",
+        "entities": []
+      },
+      {
+        "text": "exist a minimum and maximum top up amount",
+        "intent": "faq_minimum_maximum_topup",
+        "entities": []
+      },
+      {
+        "text": "Is there a minimum and maximum top up amount",
+        "intent": "faq_minimum_maximum_topup",
+        "entities": []
+      },
+      {
+        "text": "Is my eWallet balance going to be updated immediately after each transaction?",
+        "intent": "faq_ewallet_balance_update",
+        "entities": []
+      },
+      {
+        "text": "eWallet balance be updated immediately after each transaction",
+        "intent": "faq_ewallet_balance_update",
+        "entities": []
+      },
+      {
+        "text": "eWallet balance be updated",
+        "intent": "faq_ewallet_balance_update",
+        "entities": []
+      },
+      {
+        "text": "Can eWallet balance update immediately after each transaction?",
+        "intent": "faq_ewallet_balance_update",
+        "entities": []
+      },
+      {
+        "text": "my eWallet balance update immediately",
+        "intent": "faq_ewallet_balance_update",
+        "entities": []
+      },
+      {
+        "text": "Is there a validity period for the “My Cash” that I have topped up?",
+        "intent": "faq_validity_period_mycash",
+        "entities": []
+      },
+      {
+        "text": "What's the validity period for the “My Cash” that I have topped up?",
+        "intent": "faq_validity_period_mycash",
+        "entities": []
+      },
+      {
+        "text": "validity period for the “My Cash” that I have topped up",
+        "intent": "faq_validity_period_mycash",
+        "entities": []
+      },
+      {
+        "text": "validity period for “My Cash” to top up",
+        "intent": "faq_validity_period_mycash",
+        "entities": []
+      },
+      {
+        "text": "validity period to top up mycash",
+        "intent": "faq_validity_period_mycash",
+        "entities": []
+      },
+      {
+        "text": "How do I use my eWallet to pay for single entry Gym/ Swim Pass?  ",
+        "intent": "faq_pay_single_entry_pass",
+        "entities": []
+      },
+      {
+        "text": "What's my eWallet to pay for single entry Gym/ Swim Pass used for?  ",
+        "intent": "faq_pay_single_entry_pass",
+        "entities": []
+      },
+      {
+        "text": " eWallet to pay for single entry Gym/ Swim Pass",
+        "intent": "faq_pay_single_entry_pass",
+        "entities": []
+      },
+      {
+        "text": "How to use my eWallet to pay for single entry Gym/ Swim Pass?",
+        "intent": "faq_pay_single_entry_pass",
+        "entities": []
+      },
+      {
+        "text": "pay for single entry Gym/ Swim Pass with eWallet",
+        "intent": "faq_pay_single_entry_pass",
+        "entities": []
+      },
+      {
+        "text": "How would I know whether successful deduction was made against my eWallet for purchasing a single entry Gym/ Swim pass?",
+        "intent": "faq_successful_deduction",
+        "entities": []
+      },
+      {
+        "text": "whether successful deduction was made against my eWallet for purchasing a single entry Gym/ Swim pass",
+        "intent": "faq_successful_deduction",
+        "entities": []
+      },
+      {
+        "text": "successful deduction was made against my eWallet for purchasing a single entry Gym/ Swim pass",
+        "intent": "faq_successful_deduction",
+        "entities": []
+      },
+      {
+        "text": "How would I know whether successful deduction was made?",
+        "intent": "faq_successful_deduction",
+        "entities": []
+      },
+      {
+        "text": "successful deduction was made for purchasing a single entry Gym/ Swim pass",
+        "intent": "faq_successful_deduction",
+        "entities": []
+      },
+      {
+        "text": "What if I lose my NRIC/ Driving License/ PAssion Card/ Student Card?  ",
+        "intent": "faq_lose_nric_card",
+        "entities": []
+      },
+      {
+        "text": "lose my NRIC/ Driving License/ PAssion Card/ Student Card",
+        "intent": "faq_lose_nric_card",
+        "entities": []
+      },
+      {
+        "text": "I lost my NRIC/ Driving License/ PAssion Card/ Student Card ",
+        "intent": "faq_lose_nric_card",
+        "entities": []
+      },
+      {
+        "text": "lose NRIC/ Driving License",
+        "intent": "faq_lose_nric_card",
+        "entities": []
+      },
+      {
+        "text": "lose PAssion Card/ Student Card",
+        "intent": "faq_lose_nric_card",
+        "entities": []
+      },
+      {
+        "text": "How is my eWallet protected if someone uses my lost NRIC for automatic entry to ActiveSG Gyms/ Swimming pools? ",
+        "intent": "faq_protected_lost_automatic",
+        "entities": []
+      },
+      {
+        "text": "protect eWallet if someone uses my lost NRIC for automatic entry to ActiveSG Gyms/ Swimming pools",
+        "intent": "faq_protected_lost_automatic",
+        "entities": []
+      },
+      {
+        "text": "How is my eWallet protected if someone uses my lost NRIC for automatic entry?",
+        "intent": "faq_protected_lost_automatic",
+        "entities": []
+      },
+      {
+        "text": "eWallet protect if someone uses my lost NRIC enter to Gyms/ Swimming pools",
+        "intent": "faq_protected_lost_automatic",
+        "entities": []
+      },
+      {
+        "text": "How is my eWallet protected if someone uses my lost NRIC for automatic entry",
+        "intent": "faq_protected_lost_automatic",
+        "entities": []
+      },
+      {
+        "text": "What if I really need to purchase more than 10 Gym/ Swim passes per day?",
+        "intent": "faq_purchase_more_passes",
+        "entities": []
+      },
+      {
+        "text": "purchase more than 10 Gym/ Swim passes per day",
+        "intent": "faq_purchase_more_passes",
+        "entities": []
+      },
+      {
+        "text": "I really need to purchase more than 10 Gym/ Swim passes per day",
+        "intent": "faq_purchase_more_passes",
+        "entities": []
+      },
+      {
+        "text": "need to purchase more than 10 Gym/ Swim passes per day",
+        "intent": "faq_purchase_more_passes",
+        "entities": []
+      },
+      {
+        "text": "purchase more than 10 Gym/ Swim passes",
+        "intent": "faq_purchase_more_passes",
+        "entities": []
+      },
+      {
+        "text": "What is the scheme of MyActiveGYM?",
+        "intent": "faq_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "MyActiveGYM scheme",
+        "intent": "faq_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "What is MyActiveGYM scheme",
+        "intent": "faq_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "meaning of MyActiveGYM scheme?",
+        "intent": "faq_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "explain MyActiveGYM scheme",
+        "intent": "faq_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "Who is eligible for the purchase of MyActiveGYM scheme?",
+        "intent": "faq_purchase_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "eligible for the purchase of MyActiveGYM scheme",
+        "intent": "faq_purchase_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "purchase of MyActiveGYM scheme",
+        "intent": "faq_purchase_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "eligible for MyActiveGYM scheme",
+        "intent": "faq_purchase_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "eligible for purchasing MyActiveGYM scheme",
+        "intent": "faq_purchase_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "Is there a minimum age for the purchase of MyActiveGYM scheme?",
+        "intent": "faq_minimum_age_purchase_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "minimum age for the purchase of MyActiveGYM scheme",
+        "intent": "faq_minimum_age_purchase_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "minimum age to purchase MyActiveGYM scheme",
+        "intent": "faq_minimum_age_purchase_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "What's the minimum age for the purchase of MyActiveGYM scheme?",
+        "intent": "faq_minimum_age_purchase_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "minimum age purchase MyActiveGYM scheme",
+        "intent": "faq_minimum_age_purchase_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "How do I sign up for MyActiveGYM scheme?",
+        "intent": "faq_signup_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "How to sign up for MyActiveGYM scheme?",
+        "intent": "faq_signup_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "sign up for MyActiveGYM scheme",
+        "intent": "faq_signup_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "I want to sign up for MyActiveGYM scheme?",
+        "intent": "faq_signup_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "MyActiveGYM scheme sign up",
+        "intent": "faq_signup_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "How do I pay for my MyActiveGYM scheme?",
+        "intent": "faq_pay_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "pay for my MyActiveGYM scheme",
+        "intent": "faq_pay_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "How to pay for my MyActiveGYM scheme?",
+        "intent": "faq_pay_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "I want to pay for myactivegym scheme",
+        "intent": "faq_pay_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "pay MyActiveGYM scheme",
+        "intent": "faq_pay_myactivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "Is there a minimum number of months that I need to purchase for MyActiveGYM scheme?",
+        "intent": "faq_minimum_months_purchase_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "minimum number of months to purchase for MyActiveGYM scheme",
+        "intent": "faq_minimum_months_purchase_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "minimum number of months that I need to purchase for MyActiveGYM scheme",
+        "intent": "faq_minimum_months_purchase_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "Is there a minimum number of months to purchase for MyActiveGYM?",
+        "intent": "faq_minimum_months_purchase_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "minimum months to purchase for MyActiveGYM",
+        "intent": "faq_minimum_months_purchase_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "How do I know if the payment for MyActiveGYM scheme is successful? ",
+        "intent": "faq_payment_myactivegym_successful",
+        "entities": []
+      },
+      {
+        "text": "When the payment for MyActiveGYM scheme is successful? ",
+        "intent": "faq_payment_myactivegym_successful",
+        "entities": []
+      },
+      {
+        "text": "the payment for MyActiveGYM scheme is successful",
+        "intent": "faq_payment_myactivegym_successful",
+        "entities": []
+      },
+      {
+        "text": "How to know if the payment for MyActiveGYM scheme is successful? ",
+        "intent": "faq_payment_myactivegym_successful",
+        "entities": []
+      },
+      {
+        "text": "successful payment for MyActiveGYM scheme",
+        "intent": "faq_payment_myactivegym_successful",
+        "entities": []
+      },
+      {
+        "text": "When will MyActiveGYM scheme be activated?",
+        "intent": "faq_myactivegym_activated",
+        "entities": []
+      },
+      {
+        "text": "What's the time that MyActiveGYM scheme will be activated?",
+        "intent": "faq_myactivegym_activated",
+        "entities": []
+      },
+      {
+        "text": "the time that MyActiveGYM scheme will be activated",
+        "intent": "faq_myactivegym_activated",
+        "entities": []
+      },
+      {
+        "text": "MyActiveGYM scheme be activated",
+        "intent": "faq_myactivegym_activated",
+        "entities": []
+      },
+      {
+        "text": "activate myactivegym scheme",
+        "intent": "faq_myactivegym_activated",
+        "entities": []
+      },
+      {
+        "text": "How do I renew my MyActiveGYM scheme? ",
+        "intent": "faq_renew_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "I want to renew MyActiveGYM scheme",
+        "intent": "faq_renew_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "How to renew my MyActiveGYM scheme? ",
+        "intent": "faq_renew_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "renew my MyActiveGYM scheme",
+        "intent": "faq_renew_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "renew MyActiveGYM scheme",
+        "intent": "faq_renew_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "Can I transfer my MyActiveGYM scheme if I decide not to continue with it?",
+        "intent": "faq_transfer_mysctivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "transfer my MyActiveGYM scheme if I decide not to continue with it",
+        "intent": "faq_transfer_mysctivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "transfer my MyActiveGYM scheme",
+        "intent": "faq_transfer_mysctivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "transfer MyActiveGYM scheme if not to continue",
+        "intent": "faq_transfer_mysctivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "transfer MyActiveGYM scheme",
+        "intent": "faq_transfer_mysctivegym_scheme",
+        "entities": []
+      },
+      {
+        "text": "Do I get a refund if I decide to terminate MyActiveGYM scheme?",
+        "intent": "faq_refund_terminate_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "get a refund if I terminate MyActiveGYM scheme",
+        "intent": "faq_refund_terminate_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "can I get a refund if I decide to terminate MyActiveGYM scheme",
+        "intent": "faq_refund_terminate_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "get refund if I decide to terminate MyActiveGYM scheme",
+        "intent": "faq_refund_terminate_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "get a refund when I terminate MyActiveGYM",
+        "intent": "faq_refund_terminate_myactivegym",
+        "entities": []
+      },
+      {
+        "text": "How do I access the gym after signing up for MyActiveGYM scheme? ",
+        "intent": "faq_access_after_signup",
+        "entities": []
+      },
+      {
+        "text": "How to access the gym after signing up for MyActiveGYM scheme? ",
+        "intent": "faq_access_after_signup",
+        "entities": []
+      },
+      {
+        "text": "access the gym after signing up for MyActiveGYM scheme",
+        "intent": "faq_access_after_signup",
+        "entities": []
+      },
+      {
+        "text": "I want to access the gym after signing up for MyActiveGYM scheme",
+        "intent": "faq_access_after_signup",
+        "entities": []
+      },
+      {
+        "text": "access the gym after signing up for MyActiveGYM",
+        "intent": "faq_access_after_signup",
+        "entities": []
+      },
+      {
+        "text": "What does myactiveswim scheme mean? ",
+        "intent": "faq_meaning_maswim",
+        "entities": []
+      },
+      {
+        "text": "myactiveswim scheme",
+        "intent": "faq_meaning_maswim",
+        "entities": []
+      },
+      {
+        "text": "What is the myactiveswim scheme? ",
+        "intent": "faq_meaning_maswim",
+        "entities": []
+      },
+      {
+        "text": "myactiveswim scheme meaning",
+        "intent": "faq_meaning_maswim",
+        "entities": []
+      },
+      {
+        "text": "explain myactiveswim scheme",
+        "intent": "faq_meaning_maswim",
+        "entities": []
+      },
+      {
+        "text": "Who is eligible for MyActiveSWIM scheme?",
+        "intent": "faq_eligible_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "eligible for MyActiveSWIM scheme",
+        "intent": "faq_eligible_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "Who is eligible for MyActiveSWIM",
+        "intent": "faq_eligible_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "eligible for MyActiveSWIM",
+        "intent": "faq_eligible_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "if i am eligible for MyActiveSWIM",
+        "intent": "faq_eligible_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "How do I sign up for MyActiveSWIM scheme?",
+        "intent": "faq_how_signup_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "How to sign up for MyActiveSWIM scheme?",
+        "intent": "faq_how_signup_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "sign up for MyActiveSWIM scheme",
+        "intent": "faq_how_signup_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "I want to sign up for MyActiveSWIM scheme",
+        "intent": "faq_how_signup_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "sign up for MyActiveSWIM",
+        "intent": "faq_how_signup_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "How do I pay for my MyActiveSWIM scheme? ",
+        "intent": "faq_pay_for_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "How to pay for my MyActiveSWIM scheme? ",
+        "intent": "faq_pay_for_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "pay for my MyActiveSWIM scheme",
+        "intent": "faq_pay_for_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "I want to pay for my MyActiveSWIM scheme",
+        "intent": "faq_pay_for_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "pay for MyActiveSWIM",
+        "intent": "faq_pay_for_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "Is there a minimum period that I need to purchase for MyActiveSWIM scheme? ",
+        "intent": "faq_period_myactiveswim_minimum",
+        "entities": []
+      },
+      {
+        "text": "What's the minimum period that I need to purchase for MyActiveSWIM scheme?",
+        "intent": "faq_period_myactiveswim_minimum",
+        "entities": []
+      },
+      {
+        "text": "minimum period to purchase for MyActiveSWIM scheme",
+        "intent": "faq_period_myactiveswim_minimum",
+        "entities": []
+      },
+      {
+        "text": "minimum period that I need to purchase for MyActiveSWIM scheme",
+        "intent": "faq_period_myactiveswim_minimum",
+        "entities": []
+      },
+      {
+        "text": "minimum period to purchase for MyActiveSWIM",
+        "intent": "faq_period_myactiveswim_minimum",
+        "entities": []
+      },
+      {
+        "text": "How do I know if my payment for MyActiveSWIM scheme is successful?",
+        "intent": "faq_successful_payment_maswim",
+        "entities": []
+      },
+      {
+        "text": "Is my payment for MyActiveSWIM scheme successful?",
+        "intent": "faq_successful_payment_maswim",
+        "entities": []
+      },
+      {
+        "text": "my payment for MyActiveSWIM scheme is successful",
+        "intent": "faq_successful_payment_maswim",
+        "entities": []
+      },
+      {
+        "text": "How to know if my payment for MyActiveSWIM scheme is successful?",
+        "intent": "faq_successful_payment_maswim",
+        "entities": []
+      },
+      {
+        "text": "my payment for MyActiveSWIM is successful",
+        "intent": "faq_successful_payment_maswim",
+        "entities": []
+      },
+      {
+        "text": "What time will MyActiveSWIM scheme be activated? ",
+        "intent": "faq_maswim_activated",
+        "entities": []
+      },
+      {
+        "text": "when MyActiveSWIM be activated",
+        "intent": "faq_maswim_activated",
+        "entities": []
+      },
+      {
+        "text": "When will MyActiveSWIM scheme be activated? ",
+        "intent": "faq_maswim_activated",
+        "entities": []
+      },
+      {
+        "text": "MyActiveSWIM scheme be activated",
+        "intent": "faq_maswim_activated",
+        "entities": []
+      },
+      {
+        "text": "MyActiveSWIM be activated",
+        "intent": "faq_maswim_activated",
+        "entities": []
+      },
+      {
+        "text": "How do I renew my purchase of MyActiveSWIM scheme?",
+        "intent": "faq_renew_purchase_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "How to renew my purchase of MyActiveSWIM scheme?",
+        "intent": "faq_renew_purchase_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "renew my purchase of MyActiveSWIM scheme",
+        "intent": "faq_renew_purchase_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "I want to renew my purchase of MyActiveSWIM scheme",
+        "intent": "faq_renew_purchase_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "renew my purchase of MyActiveSWIM",
+        "intent": "faq_renew_purchase_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "Can I transfer my purchase of MyActiveSWIM scheme if I decide not to continue it? ",
+        "intent": "faq_transfer_purchase_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "transfer my purchase of MyActiveSWIM scheme if I decide not to continue it",
+        "intent": "faq_transfer_purchase_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "transfer my purchase of MyActiveSWIM scheme",
+        "intent": "faq_transfer_purchase_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "Can I transfer purchase of MyActiveSWIM? ",
+        "intent": "faq_transfer_purchase_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "transfer my purchase of MyActiveSWIM",
+        "intent": "faq_transfer_purchase_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "Can I get a refund if I decide to terminate myactiveswim scheme? ",
+        "intent": "faq_myactiveswim_scheme_refund",
+        "entities": []
+      },
+      {
+        "text": "get a refund if I decide to terminate myactiveswim scheme",
+        "intent": "faq_myactiveswim_scheme_refund",
+        "entities": []
+      },
+      {
+        "text": "get a refund if I decide to terminate myactiveswim",
+        "intent": "faq_myactiveswim_scheme_refund",
+        "entities": []
+      },
+      {
+        "text": "if I decide to terminate myactiveswim can I get a refund",
+        "intent": "faq_myactiveswim_scheme_refund",
+        "entities": []
+      },
+      {
+        "text": "get a refund if I terminate myactiveswim",
+        "intent": "faq_myactiveswim_scheme_refund",
+        "entities": []
+      },
+      {
+        "text": "How do I access the pool after signing up for MyActiveSWIM scheme?",
+        "intent": "faq_pool_access_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "How to access the pool after signing up for MyActiveSWIM scheme?",
+        "intent": "faq_pool_access_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "access the pool after signing up for MyActiveSWIM scheme",
+        "intent": "faq_pool_access_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "How do I access the pool after signing up for MyActiveSWIM?",
+        "intent": "faq_pool_access_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "access the pool after signing up for MyActiveSWIM",
+        "intent": "faq_pool_access_myactiveswim",
+        "entities": []
+      },
+      {
+        "text": "Who is eligible to register for the ActiveSG programme?",
+        "intent": "faq_register_activesg_programme",
+        "entities": []
+      },
+      {
+        "text": "Who can register for the ActiveSG programme?",
+        "intent": "faq_register_activesg_programme",
+        "entities": []
+      },
+      {
+        "text": "eligible to register for the ActiveSG programme",
+        "intent": "faq_register_activesg_programme",
+        "entities": []
+      },
+      {
+        "text": "Who is eligible to register for ActiveSG?",
+        "intent": "faq_register_activesg_programme",
+        "entities": []
+      },
+      {
+        "text": "eligible to register for ActiveSG",
+        "intent": "faq_register_activesg_programme",
+        "entities": []
+      },
+      {
+        "text": "How do I pay for a programme?",
+        "intent": "faq_how_pay_programme",
+        "entities": []
+      },
+      {
+        "text": "How to pay for a programme?",
+        "intent": "faq_how_pay_programme",
+        "entities": []
+      },
+      {
+        "text": "pay for a programme",
+        "intent": "faq_how_pay_programme",
+        "entities": []
+      },
+      {
+        "text": "How can I pay for a programme?",
+        "intent": "faq_how_pay_programme",
+        "entities": []
+      },
+      {
+        "text": "i want to pay for a programme",
+        "intent": "faq_how_pay_programme",
+        "entities": []
+      },
+      {
+        "text": "When is payment required for any registration?",
+        "intent": "faq_when_payment_registration",
+        "entities": []
+      },
+      {
+        "text": "When need payment for any registration?",
+        "intent": "faq_when_payment_registration",
+        "entities": []
+      },
+      {
+        "text": "When is payment required for registration?",
+        "intent": "faq_when_payment_registration",
+        "entities": []
+      },
+      {
+        "text": "payment requires for registration",
+        "intent": "faq_when_payment_registration",
+        "entities": []
+      },
+      {
+        "text": "payment requires registration",
+        "intent": "faq_when_payment_registration",
+        "entities": []
+      },
+      {
+        "text": "How much time do I have to make payment after adding a registration to the shopping cart?",
+        "intent": "faq_time_payment_adding",
+        "entities": []
+      },
+      {
+        "text": "How long need to make payment after adding a registration to the shopping cart?",
+        "intent": "faq_time_payment_adding",
+        "entities": []
+      },
+      {
+        "text": "make payment after adding a registration to the shopping cart",
+        "intent": "faq_time_payment_adding",
+        "entities": []
+      },
+      {
+        "text": "time I have to make payment after adding a registration to the shopping cart",
+        "intent": "faq_time_payment_adding",
+        "entities": []
+      },
+      {
+        "text": " time to make payment after adding a registration",
+        "intent": "faq_time_payment_adding",
+        "entities": []
+      },
+      {
+        "text": "I would like to register for a programme that has already commenced. Can the programme fees be pro-rated?",
+        "intent": "faq_commence_prorated",
+        "entities": []
+      },
+      {
+        "text": "Can the programme fees be pro-rated if I would like to register for a programme that has already commenced?",
+        "intent": "faq_commence_prorated",
+        "entities": []
+      },
+      {
+        "text": "register for a programme that has already commenced. Can the programme fees be pro-rated?",
+        "intent": "faq_commence_prorated",
+        "entities": []
+      },
+      {
+        "text": "register for a programme that has already commenced, programme fees be pro-rated",
+        "intent": "faq_commence_prorated",
+        "entities": []
+      },
+      {
+        "text": "register for a commenced programme, can programme fees be pro-rated",
+        "intent": "faq_commence_prorated",
+        "entities": []
+      },
+      {
+        "text": "Are there any discounts for the programme? ",
+        "intent": "faq_discount_programme",
+        "entities": []
+      },
+      {
+        "text": "discounts for the programme",
+        "intent": "faq_discount_programme",
+        "entities": []
+      },
+      {
+        "text": "what discounts for the programme",
+        "intent": "faq_discount_programme",
+        "entities": []
+      },
+      {
+        "text": "Are there any programme discounts? ",
+        "intent": "faq_discount_programme",
+        "entities": []
+      },
+      {
+        "text": "programme discount",
+        "intent": "faq_discount_programme",
+        "entities": []
+      },
+      {
+        "text": "What is the qualifying age for senior citizens’ discount and how much is it? ",
+        "intent": "faq_qualifying_age_senior_citizen",
+        "entities": []
+      },
+      {
+        "text": "the qualifying age for senior citizens’ discount and how much is it",
+        "intent": "faq_qualifying_age_senior_citizen",
+        "entities": []
+      },
+      {
+        "text": "how much is senior citizens’ discount, what's the qualifying age",
+        "intent": "faq_qualifying_age_senior_citizen",
+        "entities": []
+      },
+      {
+        "text": "qualifying age for senior citizens’ discount, how much is it",
+        "intent": "faq_qualifying_age_senior_citizen",
+        "entities": []
+      },
+      {
+        "text": "qualifying age for senior citizens’ discount",
+        "intent": "faq_qualifying_age_senior_citizen",
+        "entities": []
+      },
+      {
+        "text": "Can I ask for refund after payment has been made? ",
+        "intent": "faq_ask_for_refund",
+        "entities": []
+      },
+      {
+        "text": "ask for refund after payment has been made",
+        "intent": "faq_ask_for_refund",
+        "entities": []
+      },
+      {
+        "text": "I want to ask for refund after payment has been made",
+        "intent": "faq_ask_for_refund",
+        "entities": []
+      },
+      {
+        "text": "ask for refund after payment",
+        "intent": "faq_ask_for_refund",
+        "entities": []
+      },
+      {
+        "text": "ask for refund",
+        "intent": "faq_ask_for_refund",
+        "entities": []
+      },
+      {
+        "text": "Can I transfer the registered slot to another programme after payment?",
+        "intent": "faq_transfer_registered_slot",
+        "entities": []
+      },
+      {
+        "text": "transfer the registered slot to another programme after payment",
+        "intent": "faq_transfer_registered_slot",
+        "entities": []
+      },
+      {
+        "text": "I want to transfer the registered slot to another programme after payment",
+        "intent": "faq_transfer_registered_slot",
+        "entities": []
+      },
+      {
+        "text": "transfer the registered slot to another programme",
+        "intent": "faq_transfer_registered_slot",
+        "entities": []
+      },
+      {
+        "text": "transfer the registered slot after payment",
+        "intent": "faq_transfer_registered_slot",
+        "entities": []
+      },
+      {
+        "text": "Can I register and pay on behalf of another person? ",
+        "intent": "faq_behalf_register_pay",
+        "entities": []
+      },
+      {
+        "text": "register and pay on behalf of another person",
+        "intent": "faq_behalf_register_pay",
+        "entities": []
+      },
+      {
+        "text": "I want to register and pay on behalf of another person",
+        "intent": "faq_behalf_register_pay",
+        "entities": []
+      },
+      {
+        "text": "I register and pay on behalf of another person",
+        "intent": "faq_behalf_register_pay",
+        "entities": []
+      },
+      {
+        "text": "on behalf of another person to register and pay ",
+        "intent": "faq_behalf_register_pay",
+        "entities": []
+      },
+      {
+        "text": "Is there a waiting list if registration if a programme is full?",
+        "intent": "faq_waiting_list_full",
+        "entities": []
+      },
+      {
+        "text": "a waiting list if registration if a programme is full",
+        "intent": "faq_waiting_list_full",
+        "entities": []
+      },
+      {
+        "text": "what is the waiting list if registration if a programme is full?",
+        "intent": "faq_waiting_list_full",
+        "entities": []
+      },
+      {
+        "text": "a waiting list if registration a programme is full",
+        "intent": "faq_waiting_list_full",
+        "entities": []
+      },
+      {
+        "text": "waiting list if registration or programme is full",
+        "intent": "faq_waiting_list_full",
+        "entities": []
+      },
+      {
+        "text": "Are the programmes safe to participate in? ",
+        "intent": "faq_safe_programmes_participate",
+        "entities": []
+      },
+      {
+        "text": "programmes safe to participate in",
+        "intent": "faq_safe_programmes_participate",
+        "entities": []
+      },
+      {
+        "text": "if the programmes safe to participate in ",
+        "intent": "faq_safe_programmes_participate",
+        "entities": []
+      },
+      {
+        "text": "programmes safe to participate",
+        "intent": "faq_safe_programmes_participate",
+        "entities": []
+      },
+      {
+        "text": "if the programmes safe to participate",
+        "intent": "faq_safe_programmes_participate",
+        "entities": []
+      },
+      {
+        "text": "What if the programme/session is cancelled? ",
+        "intent": "faq_cancelled_programme_session",
+        "entities": []
+      },
+      {
+        "text": "the programme/session is cancelled",
+        "intent": "faq_cancelled_programme_session",
+        "entities": []
+      },
+      {
+        "text": "if the programme/session is cancelled",
+        "intent": "faq_cancelled_programme_session",
+        "entities": []
+      },
+      {
+        "text": "programme/session is cancelled",
+        "intent": "faq_cancelled_programme_session",
+        "entities": []
+      },
+      {
+        "text": "programme/session cancelled",
+        "intent": "faq_cancelled_programme_session",
+        "entities": []
+      },
+      {
+        "text": "When I sign up for a programme / competition, you are asking me to get my parent’s/guardian’s consent. Why?",
+        "intent": "faq_why_parent_consent",
+        "entities": []
+      },
+      {
+        "text": "When I sign up for a programme / competition, why you are asking me to get my parent’s/guardian’s consent?",
+        "intent": "faq_why_parent_consent",
+        "entities": []
+      },
+      {
+        "text": "Why you are asking me to get my parent’s/guardian’s consent when I sign up for a programme / competition?",
+        "intent": "faq_why_parent_consent",
+        "entities": []
+      },
+      {
+        "text": "sign up for a programme / competition, why you ask me to get my parent’s/guardian’s consent?",
+        "intent": "faq_why_parent_consent",
+        "entities": []
+      },
+      {
+        "text": "sign up for a programme / competition, ask me to get my parent’s/guardian’s consent",
+        "intent": "faq_why_parent_consent",
+        "entities": []
+      },
+      {
+        "text": "How do my parents/guardians give consent?",
+        "intent": "faq_how_parents_give_consent",
+        "entities": []
+      },
+      {
+        "text": "How can my parents or guardians give consent",
+        "intent": "faq_how_parents_give_consent",
+        "entities": []
+      },
+      {
+        "text": "How my parents/guardians give consent?",
+        "intent": "faq_how_parents_give_consent",
+        "entities": []
+      },
+      {
+        "text": "my parents/guardians give consent",
+        "intent": "faq_how_parents_give_consent",
+        "entities": []
+      },
+      {
+        "text": " parents/guardians give consent",
+        "intent": "faq_how_parents_give_consent",
+        "entities": []
+      },
+      {
+        "text": "How do I update my parent’s/guardian’s email address?",
+        "intent": "faq_update_parents_email",
+        "entities": []
+      },
+      {
+        "text": "How to update my parent’s/guardian’s email address?",
+        "intent": "faq_update_parents_email",
+        "entities": []
+      },
+      {
+        "text": "update my parent’s/guardian’s email address",
+        "intent": "faq_update_parents_email",
+        "entities": []
+      },
+      {
+        "text": "I want to update my parent’s/guardian’s email address",
+        "intent": "faq_update_parents_email",
+        "entities": []
+      },
+      {
+        "text": "update parent’s/guardian’s email address",
+        "intent": "faq_update_parents_email",
+        "entities": []
+      },
+      {
+        "text": "Would I be informed whether my parent/guardian gives consent?",
+        "intent": "faq_informed_whether_consent",
+        "entities": []
+      },
+      {
+        "text": "be informed whether my parent/guardian gives consent",
+        "intent": "faq_informed_whether_consent",
+        "entities": []
+      },
+      {
+        "text": "if I would be informed whether my parent/guardian gives consent",
+        "intent": "faq_informed_whether_consent",
+        "entities": []
+      },
+      {
+        "text": "I be informed whether my parent/guardian gives consent",
+        "intent": "faq_informed_whether_consent",
+        "entities": []
+      },
+      {
+        "text": "be informed my parent/guardian gives consent",
+        "intent": "faq_informed_whether_consent",
+        "entities": []
+      },
+      {
+        "text": "My parent/guardian does not have an email address. Can I still sign up for a programme / competition?",
+        "intent": "faq_havenot_email",
+        "entities": []
+      },
+      {
+        "text": "Can I still sign up for a programme / competition if my parent/guardian does not have an email address?",
+        "intent": "faq_havenot_email",
+        "entities": []
+      },
+      {
+        "text": "Can I sign up for a programme/competition without an email address?",
+        "intent": "faq_havenot_email",
+        "entities": []
+      },
+      {
+        "text": "my parent/guardian have no email address. Can I sign up for a programme / competition",
+        "intent": "faq_havenot_email",
+        "entities": []
+      },
+      {
+        "text": "My parent/guardian have no email address. sign up for a programme / competition",
+        "intent": "faq_havenot_email",
+        "entities": []
+      },
+      {
+        "text": "How can I book a facility?",
+        "intent": "faq_how_book_facility",
+        "entities": []
+      },
+      {
+        "text": "How to book a facility?",
+        "intent": "faq_how_book_facility",
+        "entities": []
+      },
+      {
+        "text": "book a facility",
+        "intent": "faq_how_book_facility",
+        "entities": []
+      },
+      {
+        "text": "I want to book a facility",
+        "intent": "faq_how_book_facility",
+        "entities": []
+      },
+      {
+        "text": "How book a facility?",
+        "intent": "faq_how_book_facility",
+        "entities": []
+      },
+      {
+        "text": "Can I still amend my booking after it is confirmed?",
+        "intent": "faq_amend_booking",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "amend",
+            "entity": "amend"
+          }
+        ]
+      },
+      {
+        "text": "amend my booking after it is confirmed",
+        "intent": "faq_amend_booking",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "amend",
+            "entity": "amend"
+          }
+        ]
+      },
+      {
+        "text": "Can I amend my booking after confirmation?",
+        "intent": "faq_amend_booking",
+        "entities": []
+      },
+      {
+        "text": "Can I amend my booking?",
+        "intent": "faq_amend_booking",
+        "entities": []
+      },
+      {
+        "text": "amend my booking",
+        "intent": "faq_amend_booking",
+        "entities": []
+      },
+      {
+        "text": "the refund policy for unplayable bookings (e.g. rain-off, ActiveSG initiated cancellation or closure of facilities)",
+        "intent": "faq_refund_policy_unplayable_bookings",
+        "entities": []
+      },
+      {
+        "text": "the refund policy for unplayable bookings",
+        "intent": "faq_refund_policy_unplayable_bookings",
+        "entities": []
+      },
+      {
+        "text": "refund policy for unplayable bookings",
+        "intent": "faq_refund_policy_unplayable_bookings",
+        "entities": []
+      },
+      {
+        "text": "the refund policy for unplayable bookings like rain-off, ActiveSG initiated cancellation or closure of facilities",
+        "intent": "faq_refund_policy_unplayable_bookings",
+        "entities": []
+      },
+      {
+        "text": "the refund policy for unplayable bookings like rain-off, ActiveSG initiated cancellation",
+        "intent": "faq_refund_policy_unplayable_bookings",
+        "entities": []
+      },
+      {
+        "text": "Can I make my booking through phone?",
+        "intent": "faq_make_booking_through_phone",
+        "entities": []
+      },
+      {
+        "text": "make my booking through phone",
+        "intent": "faq_make_booking_through_phone",
+        "entities": []
+      },
+      {
+        "text": "I want to make my booking through phone",
+        "intent": "faq_make_booking_through_phone",
+        "entities": []
+      },
+      {
+        "text": "can make my booking through phone",
+        "intent": "faq_make_booking_through_phone",
+        "entities": []
+      },
+      {
+        "text": "make booking through phone",
+        "intent": "faq_make_booking_through_phone",
+        "entities": []
+      },
+      {
+        "text": "what's the current booking policy of football fields",
+        "intent": "faq_booking_policy_football_fields",
+        "entities": []
+      },
+      {
+        "text": "current booking policy of football fields",
+        "intent": "faq_booking_policy_football_fields",
+        "entities": []
+      },
+      {
+        "text": "current football fields booking policy ",
+        "intent": "faq_booking_policy_football_fields",
+        "entities": []
+      },
+      {
+        "text": "what's the current football fields booking policy ",
+        "intent": "faq_booking_policy_football_fields",
+        "entities": []
+      },
+      {
+        "text": "booking policy of football fields",
+        "intent": "faq_booking_policy_football_fields",
+        "entities": []
+      },
+      {
+        "text": "My company wishes to book a sport facility. How do I go about it?",
+        "intent": "faq_company_book_sport_facility",
+        "entities": []
+      },
+      {
+        "text": "What should I do if my company wishes to book a sport facility?",
+        "intent": "faq_company_book_sport_facility",
+        "entities": []
+      },
+      {
+        "text": "My company wishes to book a sport facility.",
+        "intent": "faq_company_book_sport_facility",
+        "entities": []
+      },
+      {
+        "text": "How do I go if my company wishes to book a sport facility.",
+        "intent": "faq_company_book_sport_facility",
+        "entities": []
+      },
+      {
+        "text": "company wishes to book a sport facility",
+        "intent": "faq_company_book_sport_facility",
+        "entities": []
+      },
+      {
+        "text": "Are there any school fields and school halls that I can book to play soccer and badminton respectively?",
+        "intent": "faq_school_soccer_badminton",
+        "entities": []
+      },
+      {
+        "text": "school fields and school halls that I can book to play soccer and badminton respectively",
+        "intent": "faq_school_soccer_badminton",
+        "entities": []
+      },
+      {
+        "text": "Are there any school fields and school halls that I can book to play soccer and badminton",
+        "intent": "faq_school_soccer_badminton",
+        "entities": []
+      },
+      {
+        "text": "school fields and school halls to play soccer and badminton respectively",
+        "intent": "faq_school_soccer_badminton",
+        "entities": []
+      },
+      {
+        "text": "school fields and school halls to play soccer and badminton",
+        "intent": "faq_school_soccer_badminton",
+        "entities": []
+      },
+      {
+        "text": "Where are the free-to-play school facilities located? How do I book them?",
+        "intent": "faq_free_school_facilities",
+        "entities": []
+      },
+      {
+        "text": "Where are the free-to-play school facilities located and how to book them?",
+        "intent": "faq_free_school_facilities",
+        "entities": []
+      },
+      {
+        "text": "How do I book the free-to-play school facilities and where are they?",
+        "intent": "faq_free_school_facilities",
+        "entities": []
+      },
+      {
+        "text": "Where are the free-to-play school facilities located?",
+        "intent": "faq_free_school_facilities",
+        "entities": []
+      },
+      {
+        "text": "How to book free-to-play school facilities located?",
+        "intent": "faq_free_school_facilities",
+        "entities": []
+      },
+      {
+        "text": "How do I access to My Club News?",
+        "intent": "faq_access_my_club_news",
+        "entities": []
+      },
+      {
+        "text": "How to access to My Club News?",
+        "intent": "faq_access_my_club_news",
+        "entities": []
+      },
+      {
+        "text": "access to My Club News",
+        "intent": "faq_access_my_club_news",
+        "entities": []
+      },
+      {
+        "text": "I want to access to My Club News",
+        "intent": "faq_access_my_club_news",
+        "entities": []
+      },
+      {
+        "text": "access My Club News",
+        "intent": "faq_access_my_club_news",
+        "entities": []
+      },
+      {
+        "text": "Who are the Sports Pioneers?",
+        "intent": "faq_who_sports_pioneers",
+        "entities": []
+      },
+      {
+        "text": "Sports Pioneers",
+        "intent": "faq_who_sports_pioneers",
+        "entities": []
+      },
+      {
+        "text": "Who can be the Sports Pioneers?",
+        "intent": "faq_who_sports_pioneers",
+        "entities": []
+      },
+      {
+        "text": "What are the Sports Pioneers?",
+        "intent": "faq_who_sports_pioneers",
+        "entities": []
+      },
+      {
+        "text": "who Sports Pioneers",
+        "intent": "faq_who_sports_pioneers",
+        "entities": []
+      },
+      {
+        "text": "What benefits do they enjoy?",
+        "intent": "faq_enjoy_benefits",
+        "entities": []
+      },
+      {
+        "text": "sports pioneers enjoy what benefits",
+        "intent": "faq_enjoy_benefits",
+        "entities": []
+      },
+      {
+        "text": "What benefits do sports pioneers enjoy?",
+        "intent": "faq_enjoy_benefits",
+        "entities": []
+      },
+      {
+        "text": "sports pioneers enjoy benefits",
+        "intent": "faq_enjoy_benefits",
+        "entities": []
+      },
+      {
+        "text": "enjoy benefits sports pioneers",
+        "intent": "faq_enjoy_benefits",
+        "entities": []
+      },
+      {
+        "text": "How do I know if I qualify?",
+        "intent": "faq_how_know_qualify",
+        "entities": []
+      },
+      {
+        "text": "How to know if I qualify?",
+        "intent": "faq_how_know_qualify",
+        "entities": []
+      },
+      {
+        "text": "How do I know whether I qualify?",
+        "intent": "faq_how_know_qualify",
+        "entities": []
+      },
+      {
+        "text": "How to know whether I qualify?",
+        "intent": "faq_how_know_qualify",
+        "entities": []
+      },
+      {
+        "text": "how know I qualify",
+        "intent": "faq_how_know_qualify",
+        "entities": []
+      },
+      {
+        "text": "What is the ActiveSG Mobile App?",
+        "intent": "faq_mobile_app",
+        "entities": []
+      },
+      {
+        "text": "What is the purpose of ActiveSG Mobile App?",
+        "intent": "faq_mobile_app",
+        "entities": []
+      },
+      {
+        "text": "What is the ActiveSG Mobile App for?",
+        "intent": "faq_mobile_app",
+        "entities": []
+      },
+      {
+        "text": "purpose of ActiveSG Mobile App",
+        "intent": "faq_mobile_app",
+        "entities": []
+      },
+      {
+        "text": "purpose activesg mobile app",
+        "intent": "faq_mobile_app",
+        "entities": []
+      },
+      {
+        "text": "What platforms does the ActiveSG Mobile App support?",
+        "intent": "faq_platform_activesg_support",
+        "entities": []
+      },
+      {
+        "text": "ActiveSG Mobile App support what platforms?",
+        "intent": "faq_platform_activesg_support",
+        "entities": []
+      },
+      {
+        "text": "What platforms ActiveSG Mobile App support?",
+        "intent": "faq_platform_activesg_support",
+        "entities": []
+      },
+      {
+        "text": "platforms the ActiveSG Mobile App support",
+        "intent": "faq_platform_activesg_support",
+        "entities": []
+      },
+      {
+        "text": "ActiveSG Mobile App support platforms",
+        "intent": "faq_platform_activesg_support",
+        "entities": []
+      },
+      {
+        "text": "Do I have to pay to use ActiveSG Mobile App?",
+        "intent": "faq_pay_use_mobile_app",
+        "entities": []
+      },
+      {
+        "text": "pay to use ActiveSG Mobile App",
+        "intent": "faq_pay_use_mobile_app",
+        "entities": []
+      },
+      {
+        "text": "have to pay to use ActiveSG Mobile App",
+        "intent": "faq_pay_use_mobile_app",
+        "entities": []
+      },
+      {
+        "text": "Do I have to pay for ActiveSG Mobile App?",
+        "intent": "faq_pay_use_mobile_app",
+        "entities": []
+      },
+      {
+        "text": "have to pay for ActiveSG Mobile App",
+        "intent": "faq_pay_use_mobile_app",
+        "entities": []
+      },
+      {
+        "text": "Must I be a Singaporean/PR to use the ActiveSG Mobile App?",
+        "intent": "faq_singaporean_pr_use",
+        "entities": []
+      },
+      {
+        "text": "Singaporean/PR can use the ActiveSG Mobile App",
+        "intent": "faq_singaporean_pr_use",
+        "entities": []
+      },
+      {
+        "text": "must be a Singaporean/PR to use the ActiveSG Mobile App?",
+        "intent": "faq_singaporean_pr_use",
+        "entities": []
+      },
+      {
+        "text": "Must be Singaporean/PR use ActiveSG Mobile App",
+        "intent": "faq_singaporean_pr_use",
+        "entities": []
+      },
+      {
+        "text": "Singaporean/PR use ActiveSG Mobile App",
+        "intent": "faq_singaporean_pr_use",
+        "entities": []
+      },
+      {
+        "text": "What is the difference between being an ActiveSG member and a Registered User regarding the booking of ActiveSG facilities?",
+        "intent": "faq_difference_member_register_user",
+        "entities": []
+      },
+      {
+        "text": "difference between being an ActiveSG member and a Registered User regarding the booking of ActiveSG facilities",
+        "intent": "faq_difference_member_register_user",
+        "entities": []
+      },
+      {
+        "text": "What is the difference between ActiveSG member and Registered User regarding the booking of ActiveSG facilities",
+        "intent": "faq_difference_member_register_user",
+        "entities": []
+      },
+      {
+        "text": "difference between ActiveSG member and Registered User regarding the booking of ActiveSG facilities?",
+        "intent": "faq_difference_member_register_user",
+        "entities": []
+      },
+      {
+        "text": "difference between ActiveSG member and Registered User regarding the booking",
+        "intent": "faq_difference_member_register_user",
+        "entities": []
+      },
+      {
+        "text": "What kind of facilities can I book via ActiveSG Mobile App?",
+        "intent": "faq_what_facilities_book_app",
+        "entities": []
+      },
+      {
+        "text": "What facilities can I book from ActiveSG Mobile App?",
+        "intent": "faq_what_facilities_book_app",
+        "entities": []
+      },
+      {
+        "text": "What kind of facilities can I book via Mobile App?",
+        "intent": "faq_what_facilities_book_app",
+        "entities": []
+      },
+      {
+        "text": "What facilities can I book via Mobile App?",
+        "intent": "faq_what_facilities_book_app",
+        "entities": []
+      },
+      {
+        "text": "facilities can I book via ActiveSG Mobile App",
+        "intent": "faq_what_facilities_book_app",
+        "entities": []
+      },
+      {
+        "text": "Why did my booking expire while I was still logged in to ActiveSG Mobile App?",
+        "intent": "faq_booking_expire_login",
+        "entities": []
+      },
+      {
+        "text": "my booking expire while I was logged in to ActiveSG Mobile App",
+        "intent": "faq_booking_expire_login",
+        "entities": []
+      },
+      {
+        "text": "Why my booking expire while I was logged in to ActiveSG Mobile App?",
+        "intent": "faq_booking_expire_login",
+        "entities": []
+      },
+      {
+        "text": "I was still logged in to ActiveSG Mobile App while my booking expire",
+        "intent": "faq_booking_expire_login",
+        "entities": []
+      },
+      {
+        "text": "my booking expire I was logged in to ActiveSG Mobile App",
+        "intent": "faq_booking_expire_login",
+        "entities": []
+      },
+      {
+        "text": "I tried to re-book but could not get the slot I wanted. Why?",
+        "intent": "faq_rebook_slot",
+        "entities": []
+      },
+      {
+        "text": "Why I could not get the slot I wanted when I tried to re-book?",
+        "intent": "faq_rebook_slot",
+        "entities": []
+      },
+      {
+        "text": "I tried to re-book but could not get the slot I wanted.",
+        "intent": "faq_rebook_slot",
+        "entities": []
+      },
+      {
+        "text": "I tried to re-book but could not get the slot. Why?",
+        "intent": "faq_rebook_slot",
+        "entities": []
+      },
+      {
+        "text": "I tried to re-book but could not get the slot",
+        "intent": "faq_rebook_slot",
+        "entities": []
+      },
+      {
+        "text": "Why am I unable to pay using eWallet?",
+        "intent": "faq_unable_pay_ewallet",
+        "entities": []
+      },
+      {
+        "text": "unable to pay using eWallet",
+        "intent": "faq_unable_pay_ewallet",
+        "entities": []
+      },
+      {
+        "text": "Why I unable to pay using eWallet?",
+        "intent": "faq_unable_pay_ewallet",
+        "entities": []
+      },
+      {
+        "text": "Why I unable to pay with eWallet?",
+        "intent": "faq_unable_pay_ewallet",
+        "entities": []
+      },
+      {
+        "text": "Why unable to pay with eWallet?",
+        "intent": "faq_unable_pay_ewallet",
+        "entities": []
+      },
+      {
+        "text": "How do I top up my eWallet balance?",
+        "intent": "faq_how_topup_balance",
+        "entities": []
+      },
+      {
+        "text": "How to top up my eWallet balance?",
+        "intent": "faq_how_topup_balance",
+        "entities": []
+      },
+      {
+        "text": "top up my eWallet balance",
+        "intent": "faq_how_topup_balance",
+        "entities": []
+      },
+      {
+        "text": "I want to top up my eWallet balance",
+        "intent": "faq_how_topup_balance",
+        "entities": []
+      },
+      {
+        "text": "how top up eWallet balance",
+        "intent": "faq_how_topup_balance",
+        "entities": []
+      },
+      {
+        "text": "Can I change my eWallet PIN?",
+        "intent": "faq_change_ewallet_pin",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "change",
+            "entity": "change"
+          }
+        ]
+      },
+      {
+        "text": "change my eWallet PIN",
+        "intent": "faq_change_ewallet_pin",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "change",
+            "entity": "change"
+          }
+        ]
+      },
+      {
+        "text": "I want to change my eWallet PIN",
+        "intent": "faq_change_ewallet_pin",
+        "entities": []
+      },
+      {
+        "text": "Can change my eWallet PIN",
+        "intent": "faq_change_ewallet_pin",
+        "entities": []
+      },
+      {
+        "text": "change eWallet PIN",
+        "intent": "faq_change_ewallet_pin",
+        "entities": []
+      },
+      {
+        "text": "I forgot my eWallet PIN. What should I do?",
+        "intent": "faq_forget_ewallet_pin",
+        "entities": []
+      },
+      {
+        "text": "I forget my eWallet PIN",
+        "intent": "faq_forget_ewallet_pin",
+        "entities": []
+      },
+      {
+        "text": "What should I do if I forgot my eWallet PIN?",
+        "intent": "faq_forget_ewallet_pin",
+        "entities": []
+      },
+      {
+        "text": "I forgot eWallet PIN.",
+        "intent": "faq_forget_ewallet_pin",
+        "entities": []
+      },
+      {
+        "text": "forgot eWallet PIN",
+        "intent": "faq_forget_ewallet_pin",
+        "entities": []
+      },
+      {
+        "text": "How do I reset my eWallet PIN?",
+        "intent": "faq_reset_ewallet_pin",
+        "entities": []
+      },
+      {
+        "text": "How to reset my eWallet PIN",
+        "intent": "faq_reset_ewallet_pin",
+        "entities": []
+      },
+      {
+        "text": "how reset eWallet PIN",
+        "intent": "faq_reset_ewallet_pin",
+        "entities": []
+      },
+      {
+        "text": "reset my eWallet PIN",
+        "intent": "faq_reset_ewallet_pin",
+        "entities": []
+      },
+      {
+        "text": "reset eWallet PIN",
+        "intent": "faq_reset_ewallet_pin",
+        "entities": []
+      },
+      {
+        "text": "Can I pay by debit card instead of credit card?",
+        "intent": "faq_can_pay_debit_card",
+        "entities": []
+      },
+      {
+        "text": "Can I pay by debit card?",
+        "intent": "faq_can_pay_debit_card",
+        "entities": []
+      },
+      {
+        "text": "pay by debit card instead of credit card",
+        "intent": "faq_can_pay_debit_card",
+        "entities": []
+      },
+      {
+        "text": "can pay by debit card",
+        "intent": "faq_can_pay_debit_card",
+        "entities": []
+      },
+      {
+        "text": "pay by debit card",
+        "intent": "faq_can_pay_debit_card",
+        "entities": []
+      },
+      {
+        "text": "Why am I having problems loading ActiveSG Mobile App on my phone?",
+        "intent": "faq_problem_load_app",
+        "entities": []
+      },
+      {
+        "text": "have problems loading ActiveSG Mobile App on my phone",
+        "intent": "faq_problem_load_app",
+        "entities": []
+      },
+      {
+        "text": "Why having problems loading ActiveSG Mobile App on my phone",
+        "intent": "faq_problem_load_app",
+        "entities": []
+      },
+      {
+        "text": "Why have problems loading ActiveSG Mobile App?",
+        "intent": "faq_problem_load_app",
+        "entities": []
+      },
+      {
+        "text": "having problems loading ActiveSG Mobile App",
+        "intent": "faq_problem_load_app",
+        "entities": []
+      },
+      {
+        "text": "How is my location info being used by ActiveSG Mobile App?",
+        "intent": "faq_location_info",
+        "entities": []
+      },
+      {
+        "text": "my location info being used by ActiveSG Mobile App",
+        "intent": "faq_location_info",
+        "entities": []
+      },
+      {
+        "text": "How is my location info from ActiveSG Mobile App?",
+        "intent": "faq_location_info",
+        "entities": []
+      },
+      {
+        "text": "my location info from ActiveSG Mobile App",
+        "intent": "faq_location_info",
+        "entities": []
+      },
+      {
+        "text": "my location info ActiveSG Mobile App",
+        "intent": "faq_location_info",
+        "entities": []
+      },
+      {
+        "text": "How do I send feedback about ActiveSG?",
+        "intent": "faq_send_feedback_activesg",
+        "entities": []
+      },
+      {
+        "text": "How to send feedback about ActiveSG?",
+        "intent": "faq_send_feedback_activesg",
+        "entities": []
+      },
+      {
+        "text": "I want to send feedback about ActiveSG",
+        "intent": "faq_send_feedback_activesg",
+        "entities": []
+      },
+      {
+        "text": "send feedback about ActiveSG",
+        "intent": "faq_send_feedback_activesg",
+        "entities": []
+      },
+      {
+        "text": "I send feedback about ActiveSG",
+        "intent": "faq_send_feedback_activesg",
+        "entities": []
+      },
+      {
+        "text": "How can I switch on location detection to enable Location Services?",
+        "intent": "faq_switch_location_detection",
+        "entities": []
+      },
+      {
+        "text": "How to switch on location detection to enable Location Services?",
+        "intent": "faq_switch_location_detection",
+        "entities": []
+      },
+      {
+        "text": "I want to switch on location detection to enable Location Services",
+        "intent": "faq_switch_location_detection",
+        "entities": []
+      },
+      {
+        "text": "switch on location detection to enable Location Services",
+        "intent": "faq_switch_location_detection",
+        "entities": []
+      },
+      {
+        "text": "switch on location detection",
+        "intent": "faq_switch_location_detection",
+        "entities": []
+      },
+      {
+        "text": "How can I refresh my location if I can’t detect my current location. My mobile phone says I am in another place?",
+        "intent": "faq_refresh_location",
+        "entities": []
+      },
+      {
+        "text": "How to refresh my location?",
+        "intent": "faq_refresh_location",
+        "entities": []
+      },
+      {
+        "text": "How can I refresh my location. My mobile phone says I am in another place?",
+        "intent": "faq_refresh_location",
+        "entities": []
+      },
+      {
+        "text": "How can I refresh my location if I can’t detect my current location?",
+        "intent": "faq_refresh_location",
+        "entities": []
+      },
+      {
+        "text": "refresh my location",
+        "intent": "faq_refresh_location",
+        "entities": []
+      },
+      {
+        "text": "How do I check the version of the application?",
+        "intent": "faq_check_version_application",
+        "entities": []
+      },
+      {
+        "text": "How to check the version of the application?",
+        "intent": "faq_check_version_application",
+        "entities": []
+      },
+      {
+        "text": "I want to check the version of the application",
+        "intent": "faq_check_version_application",
+        "entities": []
+      },
+      {
+        "text": "check the version of the application",
+        "intent": "faq_check_version_application",
+        "entities": []
+      },
+      {
+        "text": "check the application version",
+        "intent": "faq_check_version_application",
+        "entities": []
+      },
+      {
+        "text": "what's the purpose of CAPTCHA",
+        "intent": "faq_captcha_what",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "CAPTCHA",
+            "entity": "captcha"
+          }
+        ]
+      },
+      {
+        "text": "What's the meaning of CAPTCHA",
+        "intent": "faq_captcha_what",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "CAPTCHA",
+            "entity": "captcha"
+          }
+        ]
+      },
+      {
+        "text": "what CAPTCHA",
+        "intent": "faq_captcha_what",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "CAPTCHA",
+            "entity": "captcha"
+          }
+        ]
+      },
+      {
+        "text": "what purpose of CAPTCHA",
+        "intent": "faq_captcha_what",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "CAPTCHA",
+            "entity": "captcha"
+          }
+        ]
+      },
+      {
+        "text": "what meaning of captcha",
+        "intent": "faq_captcha_what",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "captcha",
+            "entity": "captcha"
+          }
+        ]
+      },
+      {
+        "text": "Why is CAPTCHA being used on this website?",
+        "intent": "faq_captcha_website",
+        "entities": []
+      },
+      {
+        "text": "CAPTCHA is being used on this website",
+        "intent": "faq_captcha_website",
+        "entities": []
+      },
+      {
+        "text": "Why CAPTCHA being used on this website?",
+        "intent": "faq_captcha_website",
+        "entities": []
+      },
+      {
+        "text": "Why is CAPTCHA being used?",
+        "intent": "faq_captcha_website",
+        "entities": []
+      },
+      {
+        "text": "CAPTCHA being used",
+        "intent": "faq_captcha_website",
+        "entities": []
+      },
+      {
+        "text": "Why and when will I get CAPTCHA?",
+        "intent": "faq_get_captcha",
+        "entities": []
+      },
+      {
+        "text": "Why and when can I get CAPTCHA?",
+        "intent": "faq_get_captcha",
+        "entities": []
+      },
+      {
+        "text": "Why and when I get CAPTCHA",
+        "intent": "faq_get_captcha",
+        "entities": []
+      },
+      {
+        "text": "Why and when get CAPTCHA?",
+        "intent": "faq_get_captcha",
+        "entities": []
+      },
+      {
+        "text": "Why when get CAPTCHA",
+        "intent": "faq_get_captcha",
+        "entities": []
+      },
+      {
+        "text": "How to solve CAPTCHA?",
+        "intent": "faq_solve_captcha",
+        "entities": []
+      },
+      {
+        "text": "How can I solve CAPTCHA?",
+        "intent": "faq_solve_captcha",
+        "entities": []
+      },
+      {
+        "text": "I want to solve CAPTCHA",
+        "intent": "faq_solve_captcha",
+        "entities": []
+      },
+      {
+        "text": "how solve CAPTCHA",
+        "intent": "faq_solve_captcha",
+        "entities": []
+      },
+      {
+        "text": "solve CAPTCHA",
+        "intent": "faq_solve_captcha",
+        "entities": []
+      },
+      {
+        "text": "Why do I get additional CAPTCHA challenges instead of one simple challenge?",
+        "intent": "faq_additional_captcha_challenge",
+        "entities": []
+      },
+      {
+        "text": "get additional CAPTCHA challenges instead of one simple challenge",
+        "intent": "faq_additional_captcha_challenge",
+        "entities": []
+      },
+      {
+        "text": "Why get additional CAPTCHA challenges instead of one simple challenge?",
+        "intent": "faq_additional_captcha_challenge",
+        "entities": []
+      },
+      {
+        "text": "get additional CAPTCHA challenges",
+        "intent": "faq_additional_captcha_challenge",
+        "entities": []
+      },
+      {
+        "text": "additional CAPTCHA challenges",
+        "intent": "faq_additional_captcha_challenge",
+        "entities": []
+      },
+      {
+        "text": "What is Fingerprint Login?",
+        "intent": "faq_fingerprint_login_what",
+        "entities": []
+      },
+      {
+        "text": "What does Fingerprint Login mean?",
+        "intent": "faq_fingerprint_login_what",
+        "entities": []
+      },
+      {
+        "text": "What Fingerprint Login?",
+        "intent": "faq_fingerprint_login_what",
+        "entities": []
+      },
+      {
+        "text": "Fingerprint Login meaning",
+        "intent": "faq_fingerprint_login_what",
+        "entities": []
+      },
+      {
+        "text": "Fingerprint Login",
+        "intent": "faq_fingerprint_login_what",
+        "entities": []
+      },
+      {
+        "text": "What are the devices which support Fingerprint Login?",
+        "intent": "faq_device_support_fingerprint",
+        "entities": []
+      },
+      {
+        "text": "What devices support Fingerprint Login?",
+        "intent": "faq_device_support_fingerprint",
+        "entities": []
+      },
+      {
+        "text": "What devices support Fingerprint?",
+        "intent": "faq_device_support_fingerprint",
+        "entities": []
+      },
+      {
+        "text": "devices which support Fingerprint Login",
+        "intent": "faq_device_support_fingerprint",
+        "entities": []
+      },
+      {
+        "text": "devices support Fingerprint Login",
+        "intent": "faq_device_support_fingerprint",
+        "entities": []
+      },
+      {
+        "text": "When will this feature be available?",
+        "intent": "faq_feature_available",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "feature",
+            "entity": "feature"
+          }
+        ]
+      },
+      {
+        "text": "this feature will be available",
+        "intent": "faq_feature_available",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "feature",
+            "entity": "feature"
+          }
+        ]
+      },
+      {
+        "text": "When will fingerprint login feature be available?",
+        "intent": "faq_feature_available",
+        "entities": [
+          {
+            "start": 10,
+            "end": 35,
+            "value": "fingerprint login feature",
+            "entity": "feature"
+          }
+        ]
+      },
+      {
+        "text": "When fingerprint login available?",
+        "intent": "faq_feature_available",
+        "entities": []
+      },
+      {
+        "text": "fingerprint login available",
+        "intent": "faq_feature_available",
+        "entities": []
+      },
+      {
+        "text": "Can I setup Fingerprint Login function using Facebook login?",
+        "intent": "faq_setup_fingerprint_facebook",
+        "entities": [
+          {
+            "start": 45,
+            "end": 53,
+            "value": "Facebook",
+            "entity": "facebook"
+          }
+        ]
+      },
+      {
+        "text": "setup Fingerprint Login function using Facebook login",
+        "intent": "faq_setup_fingerprint_facebook",
+        "entities": [
+          {
+            "start": 39,
+            "end": 47,
+            "value": "Facebook",
+            "entity": "facebook"
+          }
+        ]
+      },
+      {
+        "text": "setup Fingerprint Login function with Facebook login",
+        "intent": "faq_setup_fingerprint_facebook",
+        "entities": [
+          {
+            "start": 38,
+            "end": 46,
+            "value": "Facebook",
+            "entity": "facebook"
+          }
+        ]
+      },
+      {
+        "text": "setup Fingerprint Login using Facebook login",
+        "intent": "faq_setup_fingerprint_facebook",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "Facebook",
+            "entity": "facebook"
+          }
+        ]
+      },
+      {
+        "text": "setup Fingerprint Login with Facebook login",
+        "intent": "faq_setup_fingerprint_facebook",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "Facebook",
+            "entity": "facebook"
+          }
+        ]
+      },
+      {
+        "text": "How to setup using Fingerprint Login Function?",
+        "intent": "faq_setup_login_function",
+        "entities": []
+      },
+      {
+        "text": "setup using Fingerprint Login Function",
+        "intent": "faq_setup_login_function",
+        "entities": []
+      },
+      {
+        "text": "How can I setup using Fingerprint Login Function?",
+        "intent": "faq_setup_login_function",
+        "entities": []
+      },
+      {
+        "text": "I want to to setup using Fingerprint Login Function",
+        "intent": "faq_setup_login_function",
+        "entities": []
+      },
+      {
+        "text": "setup using Fingerprint Login",
+        "intent": "faq_setup_login_function",
+        "entities": []
+      },
+      {
+        "text": "Why my Touch ID has been disabled?",
+        "intent": "faq_touchid_disable",
+        "entities": []
+      },
+      {
+        "text": "my Touch ID has been disabled",
+        "intent": "faq_touchid_disable",
+        "entities": []
+      },
+      {
+        "text": "Why Touch ID has been disabled?",
+        "intent": "faq_touchid_disable",
+        "entities": []
+      },
+      {
+        "text": "Touch ID has been disabled",
+        "intent": "faq_touchid_disable",
+        "entities": []
+      },
+      {
+        "text": "why Touch ID disabled",
+        "intent": "faq_touchid_disable",
+        "entities": []
+      },
+      {
+        "text": "What is the function of MyInfo?",
+        "intent": "faq_myinfo_what",
+        "entities": []
+      },
+      {
+        "text": "Where is MyInfo applied to?",
+        "intent": "faq_myinfo_what",
+        "entities": []
+      },
+      {
+        "text": "What function of MyInfo?",
+        "intent": "faq_myinfo_what",
+        "entities": []
+      },
+      {
+        "text": "What is the MyInfo function?",
+        "intent": "faq_myinfo_what",
+        "entities": []
+      },
+      {
+        "text": "function of MyInfo",
+        "intent": "faq_myinfo_what",
+        "entities": []
+      },
+      {
+        "text": "I am already an existing ActiveSG member. Do I need to apply for MyInfo?",
+        "intent": "faq_apply_myinfo",
+        "entities": []
+      },
+      {
+        "text": "Do I need to apply for MyInfo if I am already an existing ActiveSG member?",
+        "intent": "faq_apply_myinfo",
+        "entities": []
+      },
+      {
+        "text": "apply for MyInfo if I am already an existing ActiveSG member",
+        "intent": "faq_apply_myinfo",
+        "entities": []
+      },
+      {
+        "text": "apply for MyInfo if I am an ActiveSG member",
+        "intent": "faq_apply_myinfo",
+        "entities": []
+      },
+      {
+        "text": "apply for MyInfo if I am a member",
+        "intent": "faq_apply_myinfo",
+        "entities": []
+      },
+      {
+        "text": "I have supplementary members under my account. How will their accounts be updated with MyInfo?",
+        "intent": "faq_supplementary_update_myinfo",
+        "entities": []
+      },
+      {
+        "text": " How to update supplementary members' accounts with MyInfo?",
+        "intent": "faq_supplementary_update_myinfo",
+        "entities": []
+      },
+      {
+        "text": "How will supplementary members' accounts be updated with MyInfo?",
+        "intent": "faq_supplementary_update_myinfo",
+        "entities": []
+      },
+      {
+        "text": "supplementary members' accounts be updated with MyInfo",
+        "intent": "faq_supplementary_update_myinfo",
+        "entities": []
+      },
+      {
+        "text": "supplementary members' accounts update MyInfo",
+        "intent": "faq_supplementary_update_myinfo",
+        "entities": []
+      },
+      {
+        "text": "What is the ActiveSG e-Gift Card for?",
+        "intent": "faq_egift_card_what",
+        "entities": []
+      },
+      {
+        "text": "What is the function of ActiveSG e-Gift Card?",
+        "intent": "faq_egift_card_what",
+        "entities": []
+      },
+      {
+        "text": "What ActiveSG e-Gift Card for?",
+        "intent": "faq_egift_card_what",
+        "entities": []
+      },
+      {
+        "text": "What ActiveSG e-Gift Card function",
+        "intent": "faq_egift_card_what",
+        "entities": []
+      },
+      {
+        "text": "what e-Gift Card function",
+        "intent": "faq_egift_card_what",
+        "entities": []
+      },
+      {
+        "text": "When is ActiveSG e-Gift Card available and where it is available?",
+        "intent": "faq_egift_card_available",
+        "entities": []
+      },
+      {
+        "text": "When and where is ActiveSG e-Gift Card available?",
+        "intent": "faq_egift_card_available",
+        "entities": []
+      },
+      {
+        "text": "When and where is e-Gift Card available?",
+        "intent": "faq_egift_card_available",
+        "entities": []
+      },
+      {
+        "text": "When is ActiveSG e-Gift Card available?",
+        "intent": "faq_egift_card_available",
+        "entities": []
+      },
+      {
+        "text": "where is ActiveSG e-Gift Card available?",
+        "intent": "faq_egift_card_available",
+        "entities": []
+      },
+      {
+        "text": "How can I buy an ActiveSG e-Gift Card?",
+        "intent": "faq_buy_egift_card",
+        "entities": []
+      },
+      {
+        "text": "How to buy an ActiveSG e-Gift Card?",
+        "intent": "faq_buy_egift_card",
+        "entities": []
+      },
+      {
+        "text": "I want to buy an ActiveSG e-Gift Card",
+        "intent": "faq_buy_egift_card",
+        "entities": []
+      },
+      {
+        "text": "How buy an ActiveSG e-Gift Card?",
+        "intent": "faq_buy_egift_card",
+        "entities": []
+      },
+      {
+        "text": "buy an ActiveSG e-Gift Card",
+        "intent": "faq_buy_egift_card",
+        "entities": []
+      },
+      {
+        "text": "Who can I send the ActiveSG e-Gift Card to?",
+        "intent": "faq_can_send_card",
+        "entities": []
+      },
+      {
+        "text": "who can send the ActiveSG e-Gift Card",
+        "intent": "faq_can_send_card",
+        "entities": []
+      },
+      {
+        "text": "Who send the ActiveSG e-Gift Card?",
+        "intent": "faq_can_send_card",
+        "entities": []
+      },
+      {
+        "text": "send the ActiveSG e-Gift Card to who",
+        "intent": "faq_can_send_card",
+        "entities": []
+      },
+      {
+        "text": "send the ActiveSG e-Gift Card",
+        "intent": "faq_can_send_card",
+        "entities": []
+      },
+      {
+        "text": "How can I make payment for ActiveSG e-Gift Card?",
+        "intent": "faq_payment_egift_card",
+        "entities": []
+      },
+      {
+        "text": "How to make payment for ActiveSG e-Gift Card?",
+        "intent": "faq_payment_egift_card",
+        "entities": []
+      },
+      {
+        "text": "I want to make payment for ActiveSG e-Gift Card",
+        "intent": "faq_payment_egift_card",
+        "entities": []
+      },
+      {
+        "text": "make payment for ActiveSG e-Gift Card",
+        "intent": "faq_payment_egift_card",
+        "entities": []
+      },
+      {
+        "text": "make payment for e-Gift Card",
+        "intent": "faq_payment_egift_card",
+        "entities": []
+      },
+      {
+        "text": "receive an ActiveSG e-Gift Card",
+        "intent": "faq_receive_egift_card",
+        "entities": []
+      },
+      {
+        "text": "How to receive an ActiveSG e-Gift Card?",
+        "intent": "faq_receive_egift_card",
+        "entities": []
+      },
+      {
+        "text": "How can I receive an ActiveSG e-Gift Card?",
+        "intent": "faq_receive_egift_card",
+        "entities": []
+      },
+      {
+        "text": "How receive an ActiveSG e-Gift Card",
+        "intent": "faq_receive_egift_card",
+        "entities": []
+      },
+      {
+        "text": "how receive an e-Gift Card",
+        "intent": "faq_receive_egift_card",
+        "entities": []
+      },
+      {
+        "text": "Is it necessary to register an account to become an ActiveSG member/user in order to receive an ActiveSG e-Gift Card?",
+        "intent": "faq_register_card",
+        "entities": []
+      },
+      {
+        "text": "Do I need to register an account to become an ActiveSG member/user in order to receive an ActiveSG e-Gift Card?",
+        "intent": "faq_register_card",
+        "entities": []
+      },
+      {
+        "text": "Is it necessary to register an account to become a member/user in order to receive an e-Gift Card?",
+        "intent": "faq_register_card",
+        "entities": []
+      },
+      {
+        "text": "Is it necessary to register an account to receive an e-Gift Card",
+        "intent": "faq_register_card",
+        "entities": []
+      },
+      {
+        "text": "register an account to receive an e-Gift Card",
+        "intent": "faq_register_card",
+        "entities": []
+      },
+      {
+        "text": "What if I send the e-Gift Card to wrong number or select the wrong amount?",
+        "intent": "faq_card_wrong_number_amount",
+        "entities": []
+      },
+      {
+        "text": "I send the e-Gift Card to wrong number or select the wrong amount",
+        "intent": "faq_card_wrong_number_amount",
+        "entities": []
+      },
+      {
+        "text": "What if I send the e-Gift Card to wrong number?",
+        "intent": "faq_card_wrong_number_amount",
+        "entities": []
+      },
+      {
+        "text": "I send the e-Gift Card to wrong number",
+        "intent": "faq_card_wrong_number_amount",
+        "entities": []
+      },
+      {
+        "text": "send e-Gift Card to wrong number",
+        "intent": "faq_card_wrong_number_amount",
+        "entities": []
+      },
+      {
+        "text": "Can MyCash $ in the e-Gift Card be en-cashed?",
+        "intent": "faq_mycash_encash",
+        "entities": []
+      },
+      {
+        "text": "MyCash $ in the e-Gift Card be en-cashed",
+        "intent": "faq_mycash_encash",
+        "entities": []
+      },
+      {
+        "text": "Is that MyCash $ in the e-Gift Card be en-cashed?",
+        "intent": "faq_mycash_encash",
+        "entities": []
+      },
+      {
+        "text": "en-cash MyCash $ in the e-Gift Card",
+        "intent": "faq_mycash_encash",
+        "entities": []
+      },
+      {
+        "text": "en-cash MyCash in the e-Gift Card",
+        "intent": "faq_mycash_encash",
+        "entities": []
+      },
+      {
+        "text": "How can I send an ActiveSG e-Gift Card to multiple recipients?",
+        "intent": "faq_send_multiple_recipient",
+        "entities": []
+      },
+      {
+        "text": "send an ActiveSG e-Gift Card to multiple recipients",
+        "intent": "faq_send_multiple_recipient",
+        "entities": []
+      },
+      {
+        "text": "How to send an ActiveSG e-Gift Card to multiple recipients?",
+        "intent": "faq_send_multiple_recipient",
+        "entities": []
+      },
+      {
+        "text": "How send ActiveSG e-Gift Card to multiple recipients?",
+        "intent": "faq_send_multiple_recipient",
+        "entities": []
+      },
+      {
+        "text": "send e-Gift Card to multiple recipients",
+        "intent": "faq_send_multiple_recipient",
+        "entities": []
+      },
+      {
+        "text": "How can the recipient view his/her MyCash $ in the e-Gift Card?",
+        "intent": "faq_view_mycash",
+        "entities": []
+      },
+      {
+        "text": "How to view recipient's MyCash $ in the e-Gift Card?",
+        "intent": "faq_view_mycash",
+        "entities": []
+      },
+      {
+        "text": "How recipient view MyCash $ in the e-Gift Card?",
+        "intent": "faq_view_mycash",
+        "entities": []
+      },
+      {
+        "text": "recipient view MyCash $ in the e-Gift Card",
+        "intent": "faq_view_mycash",
+        "entities": []
+      },
+      {
+        "text": "recipient view his/her MyCash $ in the e-Gift Card",
+        "intent": "faq_view_mycash",
+        "entities": []
+      },
+      {
+        "text": "What's the step to send the e-Gift card?",
+        "intent": "faq_step_send_egift",
+        "entities": []
+      },
+      {
+        "text": "the step to send the e-Gift card",
+        "intent": "faq_step_send_egift",
+        "entities": []
+      },
+      {
+        "text": "What step to send the e-Gift card?",
+        "intent": "faq_step_send_egift",
+        "entities": []
+      },
+      {
+        "text": "What step send the e-Gift card?",
+        "intent": "faq_step_send_egift",
+        "entities": []
+      },
+      {
+        "text": "step send the e-Gift card",
+        "intent": "faq_step_send_egift",
+        "entities": []
+      },
+      {
+        "text": "Is there an expiry date for the ActiveSG $100?",
+        "intent": "faq_expiry_date_activesg",
+        "entities": []
+      },
+      {
+        "text": "an expiry date for the ActiveSG $100",
+        "intent": "faq_expiry_date_activesg",
+        "entities": []
+      },
+      {
+        "text": "What's the expiry date for the ActiveSG $100?",
+        "intent": "faq_expiry_date_activesg",
+        "entities": []
+      },
+      {
+        "text": "have an expiry date for the ActiveSG $100",
+        "intent": "faq_expiry_date_activesg",
+        "entities": []
+      },
+      {
+        "text": "expiry date for ActiveSG $100",
+        "intent": "faq_expiry_date_activesg",
+        "entities": []
+      },
+      {
+        "text": "What's the privilege for senior citizens?",
+        "intent": "faq_privilege_senior_citizen",
+        "entities": []
+      },
+      {
+        "text": "have privilege for senior citizens",
+        "intent": "faq_privilege_senior_citizen",
+        "entities": []
+      },
+      {
+        "text": "privilege for senior citizens",
+        "intent": "faq_privilege_senior_citizen",
+        "entities": []
+      },
+      {
+        "text": "senior citizens have privilege",
+        "intent": "faq_privilege_senior_citizen",
+        "entities": []
+      },
+      {
+        "text": "Is there any privilege for senior citizens?",
+        "intent": "faq_privilege_senior_citizen",
+        "entities": []
+      }
+    ]
+  }
+}
